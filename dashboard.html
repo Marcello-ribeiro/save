@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel — SaveVault</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html">SV</a>
+    <div class="site-name">SAVEVAULT</div>
+    <button id="logout" class="login-btn">SAIR</button>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">INÍCIO</a>
+    <a href="dashboard.html">MEU PAINEL</a>
+  </nav>
+
+  <main class="dashboard">
+    <div class="dashboard-head">
+      <div>
+        <span class="eyebrow">PAINEL</span>
+        <h1>Meus jogos</h1>
+      </div>
+      <button id="new-game" class="primary-btn">+ NOVO JOGO</button>
+    </div>
+
+    <p id="dashboard-status" class="muted"></p>
+    <section id="my-games" class="dashboard-games"></section>
+  </main>
+
+  <div id="game-modal" class="modal hidden">
+    <div class="modal-card">
+      <button id="close-modal" class="close" type="button">×</button>
+      <h2>Novo jogo</h2>
+      <p class="muted">Cadastre o jogo e envie o primeiro save.</p>
+
+      <form id="game-form">
+        <label for="game-name">Nome do jogo</label>
+        <input id="game-name" required placeholder="Ex.: God of War">
+
+        <label for="game-cover">Capa do jogo</label>
+        <input id="game-cover" type="file" accept="image/*" required>
+
+        <label for="game-save">Arquivo do save</label>
+        <input id="game-save" type="file" required>
+
+        <label for="game-note">Observação do save</label>
+        <textarea id="game-note" placeholder="Ex.: save antes da missão final..."></textarea>
+
+        <div class="modal-actions">
+          <button type="button" id="cancel-modal" class="secondary-btn">CANCELAR</button>
+          <button type="submit" id="upload-game" class="primary-btn">UPAR</button>
+        </div>
+
+        <p id="upload-status" class="muted"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
