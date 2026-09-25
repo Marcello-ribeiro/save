@@ -26,7 +26,7 @@ async function updateAuthAction() {
 
   const { data } = await supabaseClient.auth.getUser();
   if (data.user) {
-    action.textContent = "MEU PAINEL";
+    action.textContent = "Dashboard";
     action.href = "dashboard.html";
   } else {
     action.textContent = "LOGIN";
