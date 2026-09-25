@@ -461,12 +461,15 @@ async function loadGamePage() {
         note.textContent = save.description || "Sem observação.";
         info.append(name, note);
 
-        const button = document.createElement("button");
-        button.className = "primary-btn";
-        button.textContent = "BAIXAR";
-        button.addEventListener("click", async () => {
-          button.disabled = true;
-          button.textContent = "BAIXANDO...";
+        const actions = document.createElement("div");
+        actions.className = "save-actions";
+
+        const downloadButton = document.createElement("button");
+        downloadButton.className = "primary-btn";
+        downloadButton.textContent = "BAIXAR";
+        downloadButton.addEventListener("click", async () => {
+          downloadButton.disabled = true;
+          downloadButton.textContent = "BAIXANDO...";
           try {
             const { data, error } = await supabaseClient.storage
               .from("save-files")
@@ -484,12 +487,18 @@ async function loadGamePage() {
           } catch (error) {
             alert("Erro ao baixar: " + error.message);
           } finally {
-            button.disabled = false;
-            button.textContent = "BAIXAR";
+            downloadButton.disabled = false;
+            downloadButton.textContent = "BAIXAR";
           }
         });
 
-        item.append(info, button);
+        const updateButton = document.createElement("button");
+        updateButton.className = "secondary-btn";
+        updateButton.textContent = "ATUALIZAR SAVE";
+        updateButton.addEventListener("click", () => openSaveUpdateModal(save, game, user));
+
+        actions.append(updateButton, downloadButton);
+        item.append(info, actions);
         list.appendChild(item);
       }
     }
@@ -501,6 +510,170 @@ async function loadGamePage() {
     console.error(error);
     status.textContent = error.message;
   }
+}
+
+function createSaveModal() {
+  let modal = $("save-update-modal");
+  if (modal) return modal;
+
+  modal = document.createElement("div");
+  modal.id = "save-update-modal";
+  modal.className = "modal hidden";
+  modal.innerHTML = `
+    <div class="modal-card save-update-card">
+      <button id="save-modal-close" class="close" type="button">×</button>
+      <span class="eyebrow">SAVE</span>
+      <h2 id="save-modal-title">Atualizar save</h2>
+      <p id="save-modal-text" class="muted">Escolha o que deseja fazer.</p>
+
+      <div id="save-choice" class="save-choice">
+        <button type="button" id="replace-save" class="primary-btn">ATUALIZAR ESTE SAVE</button>
+        <button type="button" id="add-save" class="secondary-btn">ADICIONAR UM NOVO SAVE</button>
+      </div>
+
+      <form id="save-update-form" class="hidden">
+        <label for="update-save-file">Novo arquivo do save</label>
+        <input id="update-save-file" type="file" required>
+
+        <label for="update-save-note">Observação</label>
+        <textarea id="update-save-note" placeholder="Ex.: depois da missão final..."></textarea>
+
+        <div class="modal-actions">
+          <button type="button" id="save-form-back" class="secondary-btn">VOLTAR</button>
+          <button type="submit" id="save-form-submit" class="primary-btn">SALVAR</button>
+        </div>
+        <p id="save-update-status" class="muted"></p>
+      </form>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+  return modal;
+}
+
+function openSaveUpdateModal(save, game, user) {
+  const modal = createSaveModal();
+  const choice = $("save-choice");
+  const form = $("save-update-form");
+  const title = $("save-modal-title");
+  const text = $("save-modal-text");
+  const fileInput = $("update-save-file");
+  const noteInput = $("update-save-note");
+  const status = $("save-update-status");
+  const submit = $("save-form-submit");
+
+  modal.classList.remove("hidden");
+  choice.classList.remove("hidden");
+  form.classList.add("hidden");
+  title.textContent = "O que você quer fazer?";
+  text.textContent = `Save atual: ${save.file_name || save.name || "arquivo"}`;
+  status.textContent = "";
+  fileInput.value = "";
+  noteInput.value = save.description || "";
+
+  $("replace-save").onclick = () => {
+    choice.classList.add("hidden");
+    form.classList.remove("hidden");
+    title.textContent = "Atualizar este save";
+    text.textContent = "O arquivo antigo será substituído pelo novo arquivo.";
+    submit.textContent = "ATUALIZAR SAVE";
+  };
+
+  $("add-save").onclick = () => {
+    choice.classList.add("hidden");
+    form.classList.remove("hidden");
+    title.textContent = "Adicionar novo save";
+    text.textContent = "O save atual será mantido e o novo será adicionado junto dele.";
+    submit.textContent = "ADICIONAR SAVE";
+    noteInput.value = "";
+  };
+
+  $("save-form-back").onclick = () => {
+    choice.classList.remove("hidden");
+    form.classList.add("hidden");
+    title.textContent = "O que você quer fazer?";
+    text.textContent = `Save atual: ${save.file_name || save.name || "arquivo"}`;
+    status.textContent = "";
+    fileInput.value = "";
+  };
+
+  $("save-modal-close").onclick = () => modal.classList.add("hidden");
+  modal.onclick = (event) => {
+    if (event.target === modal) modal.classList.add("hidden");
+  };
+
+  form.onsubmit = async (event) => {
+    event.preventDefault();
+    const file = fileInput.files[0];
+    if (!file) {
+      status.textContent = "Selecione o novo arquivo do save.";
+      return;
+    }
+
+    submit.disabled = true;
+    status.textContent = "Enviando novo save...";
+
+    try {
+      const replacing = submit.textContent === "ATUALIZAR SAVE";
+      let savePath = save.file_url;
+
+      if (replacing) {
+        // Mantém o mesmo caminho e substitui o arquivo antigo.
+        const { error: uploadError } = await supabaseClient.storage
+          .from("save-files")
+          .upload(savePath, file, {
+            upsert: true,
+            contentType: file.type || "application/octet-stream"
+          });
+        if (uploadError) throw uploadError;
+
+        const { error: rowError } = await supabaseClient
+          .from("saves")
+          .update({
+            name: file.name,
+            description: noteInput.value.trim() || null,
+            file_name: file.name
+          })
+          .eq("id", save.id)
+          .eq("user_id", user.id)
+          .eq("game_id", game.id);
+        if (rowError) throw rowError;
+      } else {
+        savePath = `${user.id}/${game.id}/${Date.now()}-${safeFileName(file.name)}`;
+
+        const { error: uploadError } = await supabaseClient.storage
+          .from("save-files")
+          .upload(savePath, file, {
+            upsert: false,
+            contentType: file.type || "application/octet-stream"
+          });
+        if (uploadError) throw uploadError;
+
+        const { error: rowError } = await supabaseClient
+          .from("saves")
+          .insert({
+            user_id: user.id,
+            game_id: game.id,
+            name: file.name,
+            description: noteInput.value.trim() || null,
+            file_url: savePath,
+            file_name: file.name
+          });
+        if (rowError) throw rowError;
+      }
+
+      status.textContent = replacing ? "Save atualizado." : "Novo save adicionado.";
+      setTimeout(() => {
+        modal.classList.add("hidden");
+        loadGamePage();
+      }, 500);
+    } catch (error) {
+      console.error(error);
+      status.textContent = "Erro: " + error.message;
+    } finally {
+      submit.disabled = false;
+    }
+  };
 }
 
 updateAuthAction();
