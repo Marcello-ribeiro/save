@@ -492,12 +492,39 @@ async function loadGamePage() {
           }
         });
 
-        const updateButton = document.createElement("button");
-        updateButton.className = "secondary-btn";
-        updateButton.textContent = "ATUALIZAR SAVE";
-        updateButton.addEventListener("click", () => openSaveUpdateModal(save, game, user));
+       const updateButton = document.createElement("button");
+updateButton.className = "secondary-btn";
 
-        actions.append(updateButton, downloadButton);
+updateButton.innerHTML = `
+  <svg width="20" height="16" viewBox="0 0 24 24" fill="none"
+       xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 11A8.1 8.1 0 0 0 5.2 6.2L3 8.5"
+          stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3 4.5V8.5H7"
+          stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4 13A8.1 8.1 0 0 0 18.8 17.8L21 15.5"
+          stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M21 19.5V15.5H17"
+          stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  ATUALIZAR SAVE
+`;
+        updateButton.addEventListener("click", () => {
+          openSaveUpdateModal(save, game, user, "update");
+        });
+
+        const newSaveButton = document.createElement("button");
+        newSaveButton.className = "secondary-btn";
+        newSaveButton.textContent = "NOVO SAVE";
+        newSaveButton.addEventListener("click", () => {
+          openSaveUpdateModal(save, game, user, "new");
+        });
+
+        actions.append(updateButton, newSaveButton, downloadButton);
         item.append(info, actions);
         list.appendChild(item);
       }
@@ -526,14 +553,19 @@ function createSaveModal() {
       <h2 id="save-modal-title">Atualizar save</h2>
       <p id="save-modal-text" class="muted">Escolha o que deseja fazer.</p>
 
-      <div id="save-choice" class="save-choice">
-        <button type="button" id="replace-save" class="primary-btn">ATUALIZAR ESTE SAVE</button>
-        <button type="button" id="add-save" class="secondary-btn">ADICIONAR UM NOVO SAVE</button>
-      </div>
 
       <form id="save-update-form" class="hidden">
-        <label for="update-save-file">Novo arquivo do save</label>
-        <input id="update-save-file" type="file" required>
+        <label for="update-save-file"> Escolha um novo Save </label>
+
+<label for="update-save-file" class="file-upload-btn">
+  ESCOLHER ARQUIVO
+</label>
+
+<input id="update-save-file" type="file" hidden required>
+
+<span id="selected-file-name" class="selected-file-name">
+  Nenhum arquivo escolhido
+</span>
 
         <label for="update-save-note">Observação</label>
         <textarea id="update-save-note" placeholder="Ex.: depois da missão final..."></textarea>
@@ -551,60 +583,79 @@ function createSaveModal() {
   return modal;
 }
 
-function openSaveUpdateModal(save, game, user) {
+function openSaveUpdateModal(save, game, user, mode = "update") {
   const modal = createSaveModal();
-  const choice = $("save-choice");
+
   const form = $("save-update-form");
   const title = $("save-modal-title");
   const text = $("save-modal-text");
   const fileInput = $("update-save-file");
+
+  const selectedFileName = $("selected-file-name");
+
+fileInput.onchange = () => {
+  if (fileInput.files.length > 0) {
+    selectedFileName.textContent = fileInput.files[0].name;
+    selectedFileName.style.color = "#f4f7ff";
+  } else {
+    selectedFileName.textContent = "Nenhum arquivo escolhido";
+    selectedFileName.style.color = "#7f91aa";
+  }
+};
+
   const noteInput = $("update-save-note");
   const status = $("save-update-status");
   const submit = $("save-form-submit");
+  const backButton = $("save-form-back");
+  const closeButton = $("save-modal-close");
 
   modal.classList.remove("hidden");
-  choice.classList.remove("hidden");
-  form.classList.add("hidden");
-  title.textContent = "O que você quer fazer?";
-  text.textContent = `Save atual: ${save.file_name || save.name || "arquivo"}`;
-  status.textContent = "";
+  form.classList.remove("hidden");
+
   fileInput.value = "";
-  noteInput.value = save.description || "";
+  status.textContent = "";
 
-  $("replace-save").onclick = () => {
-    choice.classList.add("hidden");
-    form.classList.remove("hidden");
+  if (mode === "update") {
     title.textContent = "Atualizar este save";
-    text.textContent = "O arquivo antigo será substituído pelo novo arquivo.";
-    submit.textContent = "ATUALIZAR SAVE";
-  };
-
-  $("add-save").onclick = () => {
-    choice.classList.add("hidden");
-    form.classList.remove("hidden");
-    title.textContent = "Adicionar novo save";
-    text.textContent = "O save atual será mantido e o novo será adicionado junto dele.";
-    submit.textContent = "ADICIONAR SAVE";
-    noteInput.value = "";
-  };
-
-  $("save-form-back").onclick = () => {
-    choice.classList.remove("hidden");
-    form.classList.add("hidden");
-    title.textContent = "O que você quer fazer?";
     text.textContent = `Save atual: ${save.file_name || save.name || "arquivo"}`;
-    status.textContent = "";
+    noteInput.value = save.description || "";
+    submit.textContent = "⟳ATUALIZAR SAVE";
+  } else {
+    title.textContent = "Adicionar novo save";
+    text.textContent =
+      "O save atual será mantido e o novo será adicionado junto dele.";
+    noteInput.value = "";
+    submit.textContent = "ADICIONAR SAVE";
+  }
+
+  // CANCELAR
+  backButton.onclick = () => {
+    modal.classList.add("hidden");
     fileInput.value = "";
+    status.textContent = "";
   };
 
-  $("save-modal-close").onclick = () => modal.classList.add("hidden");
+  // X
+  closeButton.onclick = () => {
+    modal.classList.add("hidden");
+    fileInput.value = "";
+    status.textContent = "";
+  };
+
+  // Clicar fora da janela também fecha
   modal.onclick = (event) => {
-    if (event.target === modal) modal.classList.add("hidden");
+    if (event.target === modal) {
+      modal.classList.add("hidden");
+      fileInput.value = "";
+      status.textContent = "";
+    }
   };
 
   form.onsubmit = async (event) => {
     event.preventDefault();
+
     const file = fileInput.files[0];
+
     if (!file) {
       status.textContent = "Selecione o novo arquivo do save.";
       return;
@@ -614,17 +665,18 @@ function openSaveUpdateModal(save, game, user) {
     status.textContent = "Enviando novo save...";
 
     try {
-      const replacing = submit.textContent === "ATUALIZAR SAVE";
+      const replacing = submit.textContent === "⟳ATUALIZAR SAVE";
       let savePath = save.file_url;
 
       if (replacing) {
-        // Mantém o mesmo caminho e substitui o arquivo antigo.
+        // SUBSTITUI O SAVE ANTIGO
         const { error: uploadError } = await supabaseClient.storage
           .from("save-files")
           .upload(savePath, file, {
             upsert: true,
             contentType: file.type || "application/octet-stream"
           });
+
         if (uploadError) throw uploadError;
 
         const { error: rowError } = await supabaseClient
@@ -637,9 +689,13 @@ function openSaveUpdateModal(save, game, user) {
           .eq("id", save.id)
           .eq("user_id", user.id)
           .eq("game_id", game.id);
+
         if (rowError) throw rowError;
+
       } else {
-        savePath = `${user.id}/${game.id}/${Date.now()}-${safeFileName(file.name)}`;
+        // ADICIONA UM NOVO SAVE
+        savePath =
+          `${user.id}/${game.id}/${Date.now()}-${safeFileName(file.name)}`;
 
         const { error: uploadError } = await supabaseClient.storage
           .from("save-files")
@@ -647,6 +703,7 @@ function openSaveUpdateModal(save, game, user) {
             upsert: false,
             contentType: file.type || "application/octet-stream"
           });
+
         if (uploadError) throw uploadError;
 
         const { error: rowError } = await supabaseClient
@@ -659,14 +716,19 @@ function openSaveUpdateModal(save, game, user) {
             file_url: savePath,
             file_name: file.name
           });
+
         if (rowError) throw rowError;
       }
 
-      status.textContent = replacing ? "Save atualizado." : "Novo save adicionado.";
+      status.textContent = replacing
+        ? "Save atualizado."
+        : "Novo save adicionado.";
+
       setTimeout(() => {
         modal.classList.add("hidden");
         loadGamePage();
       }, 500);
+
     } catch (error) {
       console.error(error);
       status.textContent = "Erro: " + error.message;
