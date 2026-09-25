@@ -142,13 +142,31 @@ async function loadHomeGames() {
         coverDiv.textContent = game.name;
       }
 
-      const info = document.createElement("div");
-      info.className = "game-info";
-      const title = document.createElement("h2");
-      title.textContent = game.name;
-      const desc = document.createElement("p");
-      desc.textContent = game.description || "Sem descrição.";
-      info.append(title, desc);
+   const { data: gameSaves, error: gameSavesError } = await supabaseClient
+  .from("saves")
+  .select("description, created_at")
+  .eq("game_id", game.id)
+  .eq("user_id", user.id)
+  .order("created_at", { ascending: false })
+  .limit(1);
+
+if (gameSavesError) throw gameSavesError;
+
+const latestSave = gameSaves?.[0];
+
+const info = document.createElement("div");
+info.className = "game-info";
+
+const title = document.createElement("h2");
+title.textContent = game.name;
+
+const desc = document.createElement("p");
+desc.textContent =
+  latestSave?.description ||
+  game.description ||
+  "Sem observação.";
+
+info.append(title, desc);
 
       card.append(coverDiv, info);
       container.appendChild(card);
@@ -242,13 +260,31 @@ async function loadGames() {
       coverDiv.textContent = game.name;
     }
 
-    const info = document.createElement("div");
-    info.className = "dashboard-game-info";
-    const title = document.createElement("h2");
-    title.textContent = game.name;
-    const desc = document.createElement("p");
-    desc.textContent = game.description || "Sem descrição.";
-    info.append(title, desc);
+const { data: gameSaves, error: gameSavesError } = await supabaseClient
+  .from("saves")
+  .select("description, created_at")
+  .eq("game_id", game.id)
+  .eq("user_id", user.id)
+  .order("created_at", { ascending: false })
+  .limit(1);
+
+if (gameSavesError) throw gameSavesError;
+
+const latestSave = gameSaves?.[0];
+
+const info = document.createElement("div");
+info.className = "dashboard-game-info";
+
+const title = document.createElement("h2");
+title.textContent = game.name;
+
+const desc = document.createElement("p");
+desc.textContent =
+  latestSave?.description ||
+  game.description ||
+  "Sem observação.";
+
+info.append(title, desc);
 
     article.append(coverDiv, info);
     container.appendChild(article);
@@ -668,31 +704,64 @@ fileInput.onchange = () => {
       const replacing = submit.textContent === "⟳ATUALIZAR SAVE";
       let savePath = save.file_url;
 
-      if (replacing) {
-        // SUBSTITUI O SAVE ANTIGO
-        const { error: uploadError } = await supabaseClient.storage
-          .from("save-files")
-          .upload(savePath, file, {
-            upsert: true,
-            contentType: file.type || "application/octet-stream"
-          });
+if (replacing) {
+  // CAMINHO DO ARQUIVO ANTIGO
+  const oldSavePath = save.file_url;
 
-        if (uploadError) throw uploadError;
+  // CRIA UM NOVO CAMINHO PARA O NOVO ARQUIVO
+  const newSavePath =
+    `${user.id}/${game.id}/${Date.now()}-${safeFileName(file.name)}`;
 
-        const { error: rowError } = await supabaseClient
-          .from("saves")
-          .update({
-            name: file.name,
-            description: noteInput.value.trim() || null,
-            file_name: file.name
-          })
-          .eq("id", save.id)
-          .eq("user_id", user.id)
-          .eq("game_id", game.id);
+  // 1. ENVIA O NOVO ARQUIVO
+  const { error: uploadError } = await supabaseClient.storage
+    .from("save-files")
+    .upload(newSavePath, file, {
+      upsert: false,
+      contentType: file.type || "application/octet-stream"
+    });
 
-        if (rowError) throw rowError;
+  if (uploadError) throw uploadError;
 
-      } else {
+  try {
+    // 2. ATUALIZA O REGISTRO DO SAVE
+    const { error: rowError } = await supabaseClient
+      .from("saves")
+      .update({
+        name: file.name,
+        description: noteInput.value.trim() || null,
+        file_url: newSavePath,
+        file_name: file.name
+      })
+      .eq("id", save.id)
+      .eq("user_id", user.id)
+      .eq("game_id", game.id);
+
+    if (rowError) throw rowError;
+
+    // 3. APAGA O ARQUIVO ANTIGO DO STORAGE
+    const { error: deleteError } = await supabaseClient.storage
+      .from("save-files")
+      .remove([oldSavePath]);
+
+    if (deleteError) {
+      console.error("Erro ao apagar save antigo:", deleteError);
+      throw new Error(
+        "O novo save foi salvo, mas não foi possível apagar o arquivo antigo: " +
+        deleteError.message
+      );
+    }
+
+  } catch (error) {
+    // Se alguma coisa der errado depois do upload,
+    // tenta apagar o novo arquivo para não deixar lixo no Storage.
+    await supabaseClient.storage
+      .from("save-files")
+      .remove([newSavePath]);
+
+    throw error;
+  }
+
+} else {
         // ADICIONA UM NOVO SAVE
         savePath =
           `${user.id}/${game.id}/${Date.now()}-${safeFileName(file.name)}`;
