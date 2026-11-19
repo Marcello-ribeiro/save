@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SaveVault</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0b0d13">
 </head>
 <body>
   <header class="topbar">
@@ -20,6 +22,21 @@
   </nav>
 
   <main class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">SAVEVAULT</span>
+        <h1>Seus saves.<br><span>Em um só lugar.</span></h1>
+      </div>
+
+      <div class="hero-collage" aria-hidden="true">
+        <div class="layer l1"><div class="piece"><i class="sun"></i><i class="hill"></i><i class="hill b"></i></div></div>
+        <div class="layer l2"><div class="piece"><i class="grid"></i><i class="dot"></i></div></div>
+        <div class="layer l4"><div class="piece"></div></div>
+        <div class="layer l3"><div class="piece"><b class="bar"><i></i></b><span class="line"></span><span class="line s"></span><span class="chips"><i></i><i></i><i></i></span></div></div>
+        <div class="layer l5"><div class="tape"></div></div>
+      </div>
+    </section>
+
     <div class="search-wrap">
       <input id="search" type="search" placeholder="Buscar jogos...">
     </div>
@@ -30,5 +47,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/app.js"></script>
+  <script src="js/fx.js" defer></script>
 </body>
 </html>
