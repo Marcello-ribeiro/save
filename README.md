@@ -1,19 +1,19 @@
 <div align="center">
 
+<a href="https://save-pearl-three.vercel.app"><img src="docs/capa.jpg" alt="SaveVault no computador e no celular" width="100%" /></a>
+
 # SaveVault
 
 **Guarde, organize e baixe os saves dos seus jogos em um só lugar.**
 
-[![Online](https://img.shields.io/badge/ver%20online-save--pearl--three.vercel.app-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://save-pearl-three.vercel.app)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Supabase](https://img.shields.io/badge/Supabase-111827?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
-![Licença MIT](https://img.shields.io/badge/licença-MIT-111827?style=for-the-badge)
-
-<img src="docs/screenshots/home.png" alt="Página inicial do SaveVault com a biblioteca de jogos" width="860" />
+<a href="https://save-pearl-three.vercel.app"><img src="https://img.shields.io/badge/ver%20online-save--pearl--three.vercel.app-eceef5?style=for-the-badge&labelColor=151821" alt="Ver online" /></a>
+<img src="https://img.shields.io/badge/JavaScript-151821?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Supabase-151821?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+<img src="https://img.shields.io/badge/Vercel-151821?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 
 </div>
 
-> As capturas de tela usam jogos e capas de exemplo.
+<br />
 
 ## Sobre
 
@@ -29,10 +29,22 @@ O SaveVault é um site para quem quer manter os arquivos de save dos jogos organ
 - **Privacidade:** as capas ficam em um bucket privado e são exibidas por URL assinada. O banco usa RLS para cada pessoa acessar apenas os seus dados.
 - **Visual:** tema escuro, cartas de jogo com inclinação 3D, layout responsivo e respeito à opção "reduzir movimento" do sistema.
 
-<div align="center">
-  <img src="docs/screenshots/jogo.png" alt="Página de um jogo com a lista de saves" width="520" />
-  <img src="docs/screenshots/celular.png" alt="Versão para celular" width="220" />
-</div>
+## Telas
+
+<img src="docs/biblioteca.jpg" alt="Biblioteca de jogos com as capas" width="100%" />
+
+<table>
+  <tr>
+    <td width="58%"><img src="docs/jogo.jpg" alt="Página de um jogo com a lista de saves" /></td>
+    <td width="42%"><img src="docs/celular.jpg" alt="Versão para celular" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Página do jogo, com todos os saves</sub></td>
+    <td align="center"><sub>No celular</sub></td>
+  </tr>
+</table>
+
+> As telas usam jogos e capas de exemplo.
 
 ## Tecnologias
 
@@ -58,7 +70,7 @@ save/
 ├── js/
 │   ├── app.js        # Lógica: autenticação, Supabase e páginas
 │   └── fx.js         # Efeitos visuais: inclinação 3D e parallax
-├── docs/screenshots/ # Imagens do README
+├── docs/            # Imagens do README
 └── favicon.svg
 ```
 
@@ -86,3 +98,7 @@ Depois acesse http://localhost:8000.
 ## Licença
 
 Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE).
+
+<br />
+
+<p align="center"><sub>Feito por <a href="https://github.com/Marcello-ribeiro">Marcello Ribeiro</a></sub></p>
