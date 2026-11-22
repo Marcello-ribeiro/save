@@ -1,4 +1,4 @@
-// Efeitos visuais do SaveVault: inclinação 3D das cartas, parallax da colagem
+// Efeitos visuais do SaveVault: inclinação 3D das capas, parallax da colagem
 // e destaque do menu. Não mexe em dados nem no Supabase.
 (() => {
   const here = location.pathname.split("/").pop() || "index.html";
@@ -10,7 +10,7 @@
   const mouse = matchMedia("(hover: hover) and (pointer: fine)").matches;
   if (reduce || !mouse) return;
 
-  const TILT = ".game-card, .dashboard-game, .about-card";
+  const TILT = ".game-card, .dashboard-game";
   const collage = document.querySelector(".hero-collage");
   let last = null;
   let frame = 0;

@@ -6,28 +6,29 @@
   <title>Criar conta — SaveVault</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0b0d13">
+  <meta name="theme-color" content="#141518">
 </head>
 <body class="center-page">
   <main class="auth-card">
-    <div class="auth-logo">SV</div>
+    <a class="auth-logo" href="index.html" aria-label="Voltar ao início">SV</a>
     <h1>Criar conta</h1>
-    <p class="muted">Crie sua biblioteca pessoal de saves.</p>
+    <p class="muted">Comece a sua biblioteca de saves.</p>
 
     <form id="signup-form">
-      <label>E-mail</label>
-      <input type="email" id="email" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" autocomplete="email" required>
 
-      <label>Senha</label>
-      <input type="password" id="password" minlength="6" required>
-
-      <button type="submit" class="primary-btn">CRIAR CONTA</button>
+      <label for="password">Senha</label>
+      <input type="password" id="password" autocomplete="new-password" minlength="6" required>
+      <p class="field-hint">Mínimo de 6 caracteres.</p>
+      <button type="submit" class="primary-btn">Criar conta</button>
+      <p id="auth-status" class="form-status" role="status"></p>
     </form>
 
     <p class="auth-link">Já tem conta? <a href="login.html">Entrar</a></p>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/app.js"></script>
+  <script src="js/app.js"></script>
   <script src="js/fx.js" defer></script>
 </body>
 </html>

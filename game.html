@@ -6,24 +6,22 @@
   <title>Jogo — SaveVault</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0b0d13">
+  <meta name="theme-color" content="#141518">
 </head>
 <body>
   <header class="topbar">
-    <a class="logo" href="index.html">SV</a>
-    <div class="site-name">SAVEVAULT</div>
-    <a id="auth-action" class="login-btn" href="login.html">LOGIN</a>
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true">SV</span><span class="site-name">SaveVault</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="dashboard.html">Painel</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+    <a id="auth-action" class="login-btn" href="login.html">Entrar</a>
   </header>
 
-  <nav class="nav">
-    <a href="index.html">INÍCIO</a>
-    <a href="dashboard.html">MEUS SAVES</a>
-    <a href="sobre.html">SOBRE</a>
-  </nav>
-
   <main class="game-page">
-    <p id="game-status" class="muted">Carregando...</p>
-    <section id="game-content" class="hidden"></section>
+    <p id="game-status" class="muted">Carregando o jogo…</p>
+    <div id="game-content" class="hidden"></div>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

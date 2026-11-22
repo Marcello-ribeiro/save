@@ -6,43 +6,53 @@
   <title>SaveVault</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0b0d13">
+  <meta name="theme-color" content="#141518">
 </head>
 <body>
   <header class="topbar">
-    <a class="logo" href="index.html">SV</a>
-    <div class="site-name">SAVEVAULT</div>
-    <a id="auth-action" class="login-btn" href="login.html">LOGIN</a>
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true">SV</span><span class="site-name">SaveVault</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="dashboard.html">Painel</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+    <a id="auth-action" class="login-btn" href="login.html">Entrar</a>
   </header>
-
-  <nav class="nav">
-    <a href="index.html">INÍCIO</a>
-    <a href="dashboard.html">MEUS SAVES</a>
-    <a href="sobre.html">SOBRE</a>
-  </nav>
 
   <main class="container">
     <section class="hero">
       <div class="hero-copy">
-        <span class="eyebrow">SAVEVAULT</span>
-        <h1>Seus saves.<br><span>Em um só lugar.</span></h1>
+        <h1>Seus saves, guardados por jogo.</h1>
+        <p>Envie o arquivo do save, anote em que ponto você parou e baixe de volta quando precisar, em qualquer computador.</p>
+        <a id="hero-action" class="primary-btn" href="signup.html">Criar conta</a>
       </div>
 
       <div class="hero-collage" aria-hidden="true">
-        <div class="layer l1"><div class="piece"><i class="sun"></i><i class="hill"></i><i class="hill b"></i></div></div>
-        <div class="layer l2"><div class="piece"><i class="grid"></i><i class="dot"></i></div></div>
-        <div class="layer l4"><div class="piece"></div></div>
-        <div class="layer l3"><div class="piece"><b class="bar"><i></i></b><span class="line"></span><span class="line s"></span><span class="chips"><i></i><i></i><i></i></span></div></div>
+        <div class="layer l1"><div class="piece cover-piece"></div></div>
+        <div class="layer l4"><div class="piece cover-piece"></div></div>
+        <div class="layer l2"><div class="piece cover-piece"></div></div>
+        <div class="layer l3">
+          <div class="piece ticket">
+            <span class="ticket-game" id="ticket-game">Eclipse Runner</span>
+            <strong id="ticket-file">slot_01.sav</strong>
+            <span class="ticket-note" id="ticket-note">Antes da missão final</span>
+            <time id="ticket-date">Último save: 18 nov 2026, 21:40</time>
+          </div>
+        </div>
         <div class="layer l5"><div class="tape"></div></div>
       </div>
     </section>
 
-    <div class="search-wrap">
-      <input id="search" type="search" placeholder="Buscar jogos...">
-    </div>
-
-    <p id="home-status" class="muted home-status"></p>
-    <section id="games" class="game-grid"></section>
+    <section aria-labelledby="library-title">
+      <div class="library-head">
+        <h2 id="library-title">Biblioteca</h2>
+        <p id="home-status" class="home-status"></p>
+        <div class="search-wrap">
+          <input id="search" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo">
+        </div>
+      </div>
+      <div id="games" class="game-grid"></div>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

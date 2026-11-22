@@ -1,100 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem Somos</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre — SaveVault</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#0b0d13">
+  <meta name="theme-color" content="#141518">
 </head>
-
 <body>
-
-      <header class="topbar">
-    <a class="logo" href="index.html">SV</a>
-    <div class="site-name">SAVEVAULT</div>
-    <a id="auth-action" class="login-btn" href="dashboard.html">dashboard</a>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true">SV</span><span class="site-name">SaveVault</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="dashboard.html">Painel</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+    <a id="auth-action" class="login-btn" href="login.html">Entrar</a>
   </header>
 
-  <nav class="nav">
-    <a href="index.html">INÍCIO</a>
-    <a href="dashboard.html">MEUS SAVES</a>
-    <a href="sobre.html">SOBRE</a>
-  </nav>
+  <main class="about-page">
+    <section class="about-hero">
+      <h1>Um lugar para os saves que você não quer perder.</h1>
+      <p>O SaveVault guarda os arquivos de save dos seus jogos, separados por jogo e com uma observação sobre cada um. Formatou o PC, trocou de máquina ou quer voltar a um ponto antigo? É só baixar.</p>
+    </section>
 
-    <main>
-        <section class="about-page">
+    <div class="about-grid">
+      <div class="about-card">
+        <h2>Separado por jogo</h2>
+        <p>Cada jogo tem a sua capa e a sua lista de saves, do mais recente ao mais antigo.</p>
+      </div>
+      <div class="about-card">
+        <h2>Atualize ou acumule</h2>
+        <p>Substitua um save pela versão nova ou mantenha o antigo e adicione outro ao lado.</p>
+      </div>
+      <div class="about-card">
+        <h2>Só você vê</h2>
+        <p>Cada conta acessa apenas os próprios jogos. As capas e os saves ficam em armazenamento privado.</p>
+      </div>
+    </div>
 
-            <div class="about-hero">
-                <span class="eyebrow">SOBRE O SAVEVAULT</span>
+    <p class="about-bottom">Feito por <a href="https://github.com/Marcello-ribeiro">Marcello Ribeiro</a>.</p>
+  </main>
 
-                <h1>
-                    Seus saves.<br>
-                    <span>Em um só lugar.</span>
-                </h1>
-
-                <p>
-                    O SaveVault foi criado para facilitar a organização e o armazenamento
-                    dos seus arquivos de save. Adicione seus jogos, envie seus saves e
-                    mantenha tudo organizado para acessar quando precisar.
-                </p>
-            </div>
-
-            <div class="about-grid">
-
-                <div class="about-card">
-                    <div class="about-icon">01</div>
-
-                    <h2>Organização</h2>
-
-                    <p>
-                        Separe seus saves por jogo e encontre rapidamente o arquivo que
-                        você procura.
-                    </p>
-                </div>
-
-                <div class="about-card">
-                    <div class="about-icon">02</div>
-
-                    <h2>Praticidade</h2>
-
-                    <p>
-                        Faça upload, atualize ou baixe seus saves diretamente pelo seu
-                        painel.
-                    </p>
-                </div>
-
-                <div class="about-card">
-                    <div class="about-icon">03</div>
-
-                    <h2>Seu espaço</h2>
-
-                    <p>
-                        Cada conta possui seu próprio espaço para armazenar e gerenciar
-                        seus jogos e arquivos.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="about-bottom">
-                <span class="about-line"></span>
-
-                <p>
-                    Feito para quem quer manter seus jogos e seus progressos sempre
-                    organizados.
-                </p>
-
-                <span class="about-line"></span>
-            </div>
-
-        </section>
-    </main>
-
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/app.js"></script>
   <script src="js/fx.js" defer></script>
 </body>
-
 </html>
