@@ -238,6 +238,7 @@ function ludusaviPaths(entry, appid) {
       p = p.replace("<storeGameId>", String(appid));
       for (const [k, v] of Object.entries(LUDU_PLACEHOLDERS)) p = p.split(k).join(v);
       if (/<[a-zA-Z]+>/.test(p.replace("<ID do perfil>", ""))) continue;
+      p = p.replace(/(%[A-Z]+%)(?=[A-Za-z])/g, "$1/");   // "<x>Pasta" sem barra na fonte
       p = p.replace(/\//g, "\\");
       if (!out.some((o) => o.store === store && o.path === p)) out.push({ store, path: p });
     }
