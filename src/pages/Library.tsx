@@ -63,11 +63,19 @@ export function Library() {
 
   return (
     <div className="page">
-      <header className="page-head">
-        <h1 className="page-title">
-          Meus <em>Jogos</em>
-        </h1>
-        <p className="page-sub">Organize seus jogos e guarde backups dos seus saves.</p>
+      <header className={`page-head${hasGames ? " page-head-pad" : ""}`}>
+        <div className="page-head-text">
+          <h1 className="page-title">
+            Meus <em>Jogos</em>
+          </h1>
+          <p className="page-sub">Organize seus jogos e guarde backups dos seus saves.</p>
+        </div>
+        {/* com jogos cadastrados, o controle 3D aparece menor ao lado do título */}
+        {hasGames && (
+          <div className="head-pad">
+            <HeroController />
+          </div>
+        )}
       </header>
 
       {library.status === "loading" && <CoverSkeleton />}

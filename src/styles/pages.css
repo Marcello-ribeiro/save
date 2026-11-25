@@ -645,3 +645,37 @@
     padding: var(--s-5);
   }
 }
+
+/* ---------- Biblioteca com jogos: controle 3D menor ao lado do título ---------- */
+.page-head-pad {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: var(--s-6);
+}
+.page-head-text {
+  display: grid;
+  gap: var(--s-2);
+}
+.head-pad {
+  width: clamp(240px, 24vw, 340px);
+  /* sobe para o espaço vazio do topo sem invadir a linha da busca */
+  margin-block: calc(var(--s-7) * -1) calc(var(--s-6) * -1);
+}
+.head-pad .pad-model-wrap {
+  aspect-ratio: 4 / 3;
+}
+.head-pad .pad3d-hint {
+  bottom: -4px;
+}
+@media (max-width: 760px) {
+  .page-head-pad {
+    column-gap: var(--s-3);
+  }
+  .head-pad {
+    width: 130px;
+    margin-block: 0;
+  }
+  .head-pad .pad3d-hint {
+    display: none;
+  }
+}
