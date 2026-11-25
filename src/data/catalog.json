@@ -1,0 +1,5554 @@
+[
+ {
+  "id": "251570",
+  "name": "7 Days to Die",
+  "steamAppId": 251570,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\7DaysToDie\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/7_Days_to_Die",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/251570/library_600x900.jpg"
+ },
+ {
+  "id": "2784470",
+  "name": "9 Kings",
+  "steamAppId": 2784470,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\SadSocket\\9Kings"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/9_Kings",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2784470/library_600x900.jpg"
+ },
+ {
+  "id": "977950",
+  "name": "A Dance of Fire and Ice",
+  "steamAppId": 977950,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\User"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\7th Beat Games\\A Dance of Fire and Ice"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/A_Dance_of_Fire_and_Ice",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/977950/library_600x900.jpg"
+ },
+ {
+  "id": "427410",
+  "name": "Abiotic Factor",
+  "steamAppId": 427410,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\AbioticFactor\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\PlayStack.AbioticFactor_3wcqaesafpzfy\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Abiotic_Factor",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/427410/library_600x900.jpg"
+ },
+ {
+  "id": "346900",
+  "name": "AdVenture Capitalist",
+  "steamAppId": 346900,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Hyper Hippo Productions Ltd_\\AdCap!"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Hyper Hippo Productions Ltd_\\AdVenture Capitalist_"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\346900"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/AdVenture_Capitalist",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/346900/library_600x900.jpg"
+ },
+ {
+  "id": "813780",
+  "name": "Age of Empires II: Definitive Edition",
+  "steamAppId": 813780,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\Games\\Age of Empires 2 DE\\<ID do perfil>\\modes\\Pompeii\\savegame"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Games\\Age of Empires 2 DE\\<ID do perfil>\\savegame"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\Games\\Age of Empires 2 DE\\<ID do perfil>\\savegame"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_II%3A_Definitive_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/library_600x900.jpg"
+ },
+ {
+  "id": "221380",
+  "name": "Age of Empires II: HD Edition",
+  "steamAppId": 221380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\savegame"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_II%3A_HD_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/221380/library_600x900.jpg"
+ },
+ {
+  "id": "933110",
+  "name": "Age of Empires III: Definitive Edition",
+  "steamAppId": 933110,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Games\\Age of Empires 3 DE\\<ID do perfil>\\Savegame"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\Games\\Age of Empires 3 DE\\<ID do perfil>\\Savegame"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_III%3A_Definitive_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/933110/library_600x900.jpg"
+ },
+ {
+  "id": "1466860",
+  "name": "Age of Empires IV",
+  "steamAppId": 1466860,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Age of Empires IV\\Users\\(UserID)\\Savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_IV",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1466860/library_600x900.jpg"
+ },
+ {
+  "id": "1934680",
+  "name": "Age of Mythology: Retold",
+  "steamAppId": 1934680,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Games\\Age of Mythology Retold\\<ID do perfil>\\savegames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\Games\\Age of Mythology Retold\\<ID do perfil>\\savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Age_of_Mythology%3A_Retold",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934680/library_600x900.jpg"
+ },
+ {
+  "id": "714010",
+  "name": "Aimlabs",
+  "steamAppId": 714010,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\LocalLow\\Statespace\\aimlab_tb"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Aimlabs",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/714010/library_600x900.jpg"
+ },
+ {
+  "id": "270880",
+  "name": "American Truck Simulator",
+  "steamAppId": 270880,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\270880\\remote\\profiles\\<ID do perfil>\\save"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\American Truck Simulator\\profiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/American_Truck_Simulator",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/270880/library_600x900.jpg"
+ },
+ {
+  "id": "945360",
+  "name": "Among Us",
+  "steamAppId": 945360,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Innersloth\\Among Us\\playerStats3"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Innersloth.AmongUs_fw5x688tam7rm\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Among_Us",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/library_600x900.jpg"
+ },
+ {
+  "id": "916440",
+  "name": "Anno 1800",
+  "steamAppId": 916440,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Anno 1800\\accounts"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Anno_1800",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/916440/library_600x900.jpg"
+ },
+ {
+  "id": "2399830",
+  "name": "ARK: Survival Ascended",
+  "steamAppId": 2399830,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\ShooterGame\\Saved\\SavedArksLocal"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/ARK%3A_Survival_Ascended",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2399830/library_600x900.jpg"
+ },
+ {
+  "id": "346110",
+  "name": "ARK: Survival Evolved",
+  "steamAppId": 346110,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\ShooterGame\\Saved\\SavedArksLocal"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/ARK%3A_Survival_Evolved",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/346110/library_600x900.jpg"
+ },
+ {
+  "id": "107410",
+  "name": "Arma 3",
+  "steamAppId": 107410,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Arma 3"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Arma_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/107410/library_600x900.jpg"
+ },
+ {
+  "id": "1874880",
+  "name": "Arma Reforger",
+  "steamAppId": 1874880,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\userdata\\<ID do perfil>\\1874880"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Arma_Reforger",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1874880/library_600x900.jpg"
+ },
+ {
+  "id": "1888160",
+  "name": "Armored Core VI: Fires of Rubicon",
+  "steamAppId": 1888160,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\ArmoredCore6\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Armored_Core_VI%3A_Fires_of_Rubicon",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/library_600x900.jpg"
+ },
+ {
+  "id": "812140",
+  "name": "Assassin's Creed Odyssey",
+  "steamAppId": 812140,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\5092"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Assassin's_Creed_Odyssey",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/library_600x900.jpg"
+ },
+ {
+  "id": "582160",
+  "name": "Assassin's Creed Origins",
+  "steamAppId": 582160,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\4923"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Assassin's_Creed_Origins",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/library_600x900.jpg"
+ },
+ {
+  "id": "2208920",
+  "name": "Assassin's Creed Valhalla",
+  "steamAppId": 2208920,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\7013"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Assassin's_Creed_Valhalla",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/library_600x900.jpg"
+ },
+ {
+  "id": "244210",
+  "name": "Assetto Corsa",
+  "steamAppId": 244210,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Assetto Corsa"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/244210/library_600x900.jpg"
+ },
+ {
+  "id": "805550",
+  "name": "Assetto Corsa Competizione",
+  "steamAppId": 805550,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Assetto Corsa Competizione\\Savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa_Competizione",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/805550/library_600x900.jpg"
+ },
+ {
+  "id": "1718570",
+  "name": "Astlibra Revision",
+  "steamAppId": 1718570,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\ASTLIBRA\\SAVE"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Astlibra_Revision",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1718570/library_600x900.jpg"
+ },
+ {
+  "id": "361420",
+  "name": "Astroneer",
+  "steamAppId": 361420,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Astro\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\SystemEraSoftworks.29415440E1269_ftk5pbg2rayv2\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Astroneer",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/361420/library_600x900.jpg"
+ },
+ {
+  "id": "668580",
+  "name": "Atomic Heart",
+  "steamAppId": 668580,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\AtomicHeart\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\FocusHomeInteractiveSA.579645D26CFD_4hny5m903y3g0\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Atomic_Heart",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/library_600x900.jpg"
+ },
+ {
+  "id": "1066890",
+  "name": "Automobilista 2",
+  "steamAppId": 1066890,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Automobilista 2\\savegame\\<ID do perfil>\\automobilista 2\\profiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Automobilista_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1066890/library_600x900.jpg"
+ },
+ {
+  "id": "924970",
+  "name": "Back 4 Blood",
+  "steamAppId": 924970,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\924970"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%LOCALAPPDATA%\\Back4Blood\\Epic\\Saved\\SaveGames"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Back4Blood\\Steam\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\WarnerBros.Interactive.e172091a-6630-4ff3-959f-830_ktmk1xygcecda\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Back_4_Blood",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/924970/library_600x900.jpg"
+ },
+ {
+  "id": "2379780",
+  "name": "Balatro",
+  "steamAppId": 2379780,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\Balatro"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\PlayStack.Balatro_3wcqaesafpzfy\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Balatro",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/library_600x900.jpg"
+ },
+ {
+  "id": "1086940",
+  "name": "Baldur's Gate 3",
+  "steamAppId": 1086940,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1086940\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\Public\\Savegames\\Story"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Baldur's_Gate_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900.jpg"
+ },
+ {
+  "id": "602960",
+  "name": "Barotrauma",
+  "steamAppId": 602960,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Daedalic Entertainment GmbH\\Barotrauma"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Barotrauma",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/602960/library_600x900.jpg"
+ },
+ {
+  "id": "208650",
+  "name": "Batman: Arkham Knight",
+  "steamAppId": 208650,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\BMGame\\SaveData"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\208650"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\WarnerBros.Interactive.7b0450f1-4a73-4eb9-b96a-e8f_ktmk1xygcecda\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Batman%3A_Arkham_Knight",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/library_600x900.jpg"
+ },
+ {
+  "id": "365360",
+  "name": "Battle Brothers",
+  "steamAppId": 365360,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Battle Brothers\\savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Battle_Brothers",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/365360/library_600x900.jpg"
+ },
+ {
+  "id": "637090",
+  "name": "BattleTech",
+  "steamAppId": 637090,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Harebrained Schemes\\BattleTech"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\637090\\remote"
+   },
+   {
+    "store": "GOG",
+    "path": "%LOCALAPPDATA%\\GOG.com\\Galaxy\\Applications\\50593543263669699\\Storage\\Shared\\Files"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\ParadoxInteractive.Battletech-MainGame_zfnrdv2de78ny\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/BattleTech",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/library_600x900.jpg"
+ },
+ {
+  "id": "8870",
+  "name": "BioShock Infinite",
+  "steamAppId": 8870,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\8870"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\My Games\\BioShock Infinite Epic\\XGame\\SaveData"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\BioShock Infinite\\XGame\\SaveData"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/BioShock_Infinite",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/library_600x900.jpg"
+ },
+ {
+  "id": "362890",
+  "name": "Black Mesa",
+  "steamAppId": 362890,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\bms\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Black_Mesa",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/library_600x900.jpg"
+ },
+ {
+  "id": "2358720",
+  "name": "Black Myth: Wukong",
+  "steamAppId": 2358720,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\b1\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\b1\\Saved\\SaveGamesBackup"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Black_Myth%3A_Wukong",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/library_600x900.jpg"
+ },
+ {
+  "id": "960090",
+  "name": "Bloons TD 6",
+  "steamAppId": 960090,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\960090"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Bloons_TD_6",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/library_600x900.jpg"
+ },
+ {
+  "id": "3419430",
+  "name": "Bongo Cat",
+  "steamAppId": 3419430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Irox Games\\BongoCat"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Bongo_Cat",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3419430/library_600x900.jpg"
+ },
+ {
+  "id": "397540",
+  "name": "Borderlands 3",
+  "steamAppId": 397540,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Borderlands 3\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\2K-Gearbox.Borderlands3WindowsPC_5c2m1mad6jpnr\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Borderlands_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/library_600x900.jpg"
+ },
+ {
+  "id": "729040",
+  "name": "Borderlands: Game of the Year Enhanced",
+  "steamAppId": 729040,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Borderlands Game of the Year\\Binaries\\SaveData"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Borderlands%3A_Game_of_the_Year_Enhanced",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/729040/library_600x900.jpg"
+ },
+ {
+  "id": "291550",
+  "name": "Brawlhalla",
+  "steamAppId": 291550,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\BrawlhallaReplays"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\BrawlhallaAir"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Brawlhalla",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/291550/library_600x900.jpg"
+ },
+ {
+  "id": "552100",
+  "name": "Brick Rigs",
+  "steamAppId": 552100,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\BrickRigs\\Saved"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Brick_Rigs",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/552100/library_600x900.jpg"
+ },
+ {
+  "id": "1942280",
+  "name": "Brotato",
+  "steamAppId": 1942280,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Brotato\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Brotato",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1942280/library_600x900.jpg"
+ },
+ {
+  "id": "2835570",
+  "name": "Buckshot Roulette",
+  "steamAppId": 2835570,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Godot\\app_userdata\\Buckshot Roulette"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\CRITICALREFLEX.BuckshotRoulette_20ymd9g5r2c54\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Buckshot_Roulette",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2835570/library_600x900.jpg"
+ },
+ {
+  "id": "1985810",
+  "name": "Call of Duty: Black Ops Cold War",
+  "steamAppId": 1985810,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Call Of Duty Black Ops Cold War\\player\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Black_Ops_Cold_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1985810/library_600x900.jpg"
+ },
+ {
+  "id": "311210",
+  "name": "Call of Duty: Black Ops III",
+  "steamAppId": 311210,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\players"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Black_Ops_III",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/311210/library_600x900.jpg"
+ },
+ {
+  "id": "2000950",
+  "name": "Call of Duty: Modern Warfare",
+  "steamAppId": 2000950,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Call of Duty Modern Warfare\\players"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Modern_Warfare",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/library_600x900.jpg"
+ },
+ {
+  "id": "635260",
+  "name": "CarX Drift Racing Online",
+  "steamAppId": 635260,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\CarX Technologies\\Drift Racing Online\\Cache"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/CarX_Drift_Racing_Online",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/635260/library_600x900.jpg"
+ },
+ {
+  "id": "204360",
+  "name": "Castle Crashers",
+  "steamAppId": 204360,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\204360\\Remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Castle_Crashers",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/204360/library_600x900.jpg"
+ },
+ {
+  "id": "504230",
+  "name": "Celeste",
+  "steamAppId": 504230,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\Saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\MattMakesGamesInc.Celeste_79daxvg0dq3v6\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Celeste",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/library_600x900.jpg"
+ },
+ {
+  "id": "977400",
+  "name": "Cell to Singularity - Evolution Never Ends",
+  "steamAppId": 977400,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Computer Lunch\\Cell to Singularity"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cell_to_Singularity_-_Evolution_Never_Ends",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/977400/library_600x900.jpg"
+ },
+ {
+  "id": "2567870",
+  "name": "Chained Together",
+  "steamAppId": 2567870,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\ChainedTogether\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Chained_Together",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2567870/library_600x900.jpg"
+ },
+ {
+  "id": "1824220",
+  "name": "Chivalry 2",
+  "steamAppId": 1824220,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\TripwireInteractiveLLC.Chivalry2_237dqjpew1r3m\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Chivalry_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/library_600x900.jpg"
+ },
+ {
+  "id": "255710",
+  "name": "Cities: Skylines",
+  "steamAppId": 255710,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Colossal Order\\Cities_Skylines\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cities%3A_Skylines",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/255710/library_600x900.jpg"
+ },
+ {
+  "id": "949230",
+  "name": "Cities: Skylines II",
+  "steamAppId": 949230,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\Saves"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\949230\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cities%3A_Skylines_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/949230/library_600x900.jpg"
+ },
+ {
+  "id": "1903340",
+  "name": "Clair Obscur: Expedition 33",
+  "steamAppId": 1903340,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\KeplerInteractive.Expedition33_ymj30pw7xe604\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%LOCALAPPDATA%\\Sandfall\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Sandfall\\Saved\\SaveGames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Clair_Obscur%3A_Expedition_33",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/library_600x900.jpg"
+ },
+ {
+  "id": "363970",
+  "name": "Clicker Heroes",
+  "steamAppId": 363970,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Playsaurus\\Clicker Heroes"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\363970\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\com.playsaurus.heroclicker\\Local Store"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Clicker_Heroes",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/363970/library_600x900.jpg"
+ },
+ {
+  "id": "597170",
+  "name": "Clone Drone in the Danger Zone",
+  "steamAppId": 597170,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Doborog\\Clone Drone in the Danger Zone"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Clone_Drone_in_the_Danger_Zone",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/597170/library_600x900.jpg"
+ },
+ {
+  "id": "1213210",
+  "name": "Command & Conquer Remastered Collection",
+  "steamAppId": 1213210,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1213210\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\CnCRemastered\\Save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Command_%26_Conquer_Remastered_Collection",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1213210/library_600x900.jpg"
+ },
+ {
+  "id": "231430",
+  "name": "Company of Heroes 2",
+  "steamAppId": 231430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Company of Heroes 2\\Savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Company_of_Heroes_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/library_600x900.jpg"
+ },
+ {
+  "id": "1677280",
+  "name": "Company of Heroes 3",
+  "steamAppId": 1677280,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Company of Heroes 3\\users\\<ID do perfil>\\savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Company_of_Heroes_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1677280/library_600x900.jpg"
+ },
+ {
+  "id": "440900",
+  "name": "Conan Exiles",
+  "steamAppId": 440900,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\ConanSandbox\\Saved"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Conan_Exiles",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/440900/library_600x900.jpg"
+ },
+ {
+  "id": "2881650",
+  "name": "Content Warning",
+  "steamAppId": 2881650,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Landfall Games\\Content Warning"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Content_Warning",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2881650/library_600x900.jpg"
+ },
+ {
+  "id": "870780",
+  "name": "Control",
+  "steamAppId": 870780,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\870780\\remote"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Control\\Saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\505GAMESS.P.A.ControlPCGP_tefn33qh9azfc\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%LOCALAPPDATA%\\Remedy\\Control\\Default-Epic-User"
+   },
+   {
+    "store": "GOG",
+    "path": "%LOCALAPPDATA%\\Remedy\\Control\\Default-Generic-User"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Control",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/library_600x900.jpg"
+ },
+ {
+  "id": "1454400",
+  "name": "Cookie Clicker",
+  "steamAppId": 1454400,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1454400\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cookie_Clicker",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/library_600x900.jpg"
+ },
+ {
+  "id": "1621690",
+  "name": "Core Keeper",
+  "steamAppId": 1621690,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Pugstorm\\Core Keeper\\Steam\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Core_Keeper",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1621690/library_600x900.jpg"
+ },
+ {
+  "id": "333420",
+  "name": "Cossacks 3",
+  "steamAppId": 333420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\cossacks"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cossacks_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/333420/library_600x900.jpg"
+ },
+ {
+  "id": "80",
+  "name": "Counter-Strike: Condition Zero",
+  "steamAppId": 80,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\Half-Life\\czero\\Save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Counter-Strike%3A_Condition_Zero",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/80/library_600x900.jpg"
+ },
+ {
+  "id": "774801",
+  "name": "Crab Champions",
+  "steamAppId": 774801,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\CrabChampions\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crab_Champions",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/library_600x900.jpg"
+ },
+ {
+  "id": "1782210",
+  "name": "Crab Game",
+  "steamAppId": 1782210,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\SavesDir"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Dani\\Crab Game"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crab_Game",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1782210/library_600x900.jpg"
+ },
+ {
+  "id": "1040200",
+  "name": "Crime Scene Cleaner",
+  "steamAppId": 1040200,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\CrimeCleaner_Data\\Saves\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\5901F20F.CrimeSceneCleaner_t06nbjdc8fw86\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crime_Scene_Cleaner",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1040200/library_600x900.jpg"
+ },
+ {
+  "id": "3321460",
+  "name": "Crimson Desert",
+  "steamAppId": 3321460,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Pearl Abyss\\CD\\save\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crimson_Desert",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3321460/library_600x900.jpg"
+ },
+ {
+  "id": "203770",
+  "name": "Crusader Kings II",
+  "steamAppId": 203770,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Crusader Kings II"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crusader_Kings_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/203770/library_600x900.jpg"
+ },
+ {
+  "id": "1158310",
+  "name": "Crusader Kings III",
+  "steamAppId": 1158310,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Crusader Kings III\\save games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Crusader_Kings_III",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1158310/library_600x900.jpg"
+ },
+ {
+  "id": "268910",
+  "name": "Cuphead",
+  "steamAppId": 268910,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Studio MDHR\\Cuphead"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\268910"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Cuphead"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\StudioMDHR.20872A364DAA1_tm1s6a95559gt\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cuphead",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/library_600x900.jpg"
+ },
+ {
+  "id": "1091500",
+  "name": "Cyberpunk 2077",
+  "steamAppId": 1091500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\CD Projekt Red\\Cyberpunk 2077"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\CDPROJEKTSA.4d0e9834-20b1-4580-9bdc-4501ef2ffaac_0xkrdv0gjmk28\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Cyberpunk_2077",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_600x900.jpg"
+ },
+ {
+  "id": "413420",
+  "name": "Danganronpa 2: Goodbye Despair",
+  "steamAppId": 413420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Danganronpa2"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Danganronpa_2%3A_Goodbye_Despair",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/library_600x900.jpg"
+ },
+ {
+  "id": "413410",
+  "name": "Danganronpa: Trigger Happy Havoc",
+  "steamAppId": 413410,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Danganronpa"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\44133SpikeChunsoftCo.Ltd.DanganRonpa1_f545tdr3ah1rr\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Danganronpa%3A_Trigger_Happy_Havoc",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/413410/library_600x900.jpg"
+ },
+ {
+  "id": "335300",
+  "name": "Dark Souls II: Scholar of the First Sin",
+  "steamAppId": 335300,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\DarkSoulsII\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dark_Souls_II%3A_Scholar_of_the_First_Sin",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/335300/library_600x900.jpg"
+ },
+ {
+  "id": "374320",
+  "name": "Dark Souls III",
+  "steamAppId": 374320,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\DarkSoulsIII\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dark_Souls_III",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/library_600x900.jpg"
+ },
+ {
+  "id": "570940",
+  "name": "Dark Souls Remastered",
+  "steamAppId": 570940,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\NBGI\\DARK SOULS REMASTERED"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dark_Souls_Remastered",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/570940/library_600x900.jpg"
+ },
+ {
+  "id": "1940340",
+  "name": "Darkest Dungeon II",
+  "steamAppId": 1940340,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\RedHook\\Darkest Dungeon II\\SaveFiles\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Darkest_Dungeon_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1940340/library_600x900.jpg"
+ },
+ {
+  "id": "1868140",
+  "name": "Dave the Diver",
+  "steamAppId": 1868140,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\mintrocket\\DAVE THE DIVER\\<ID do perfil>"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\nexon\\DAVE THE DIVER\\SteamSData\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dave_the_Diver",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/library_600x900.jpg"
+ },
+ {
+  "id": "412220",
+  "name": "DDraceNetwork",
+  "steamAppId": 412220,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Teeworlds"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/DDraceNetwork",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/412220/library_600x900.jpg"
+ },
+ {
+  "id": "588650",
+  "name": "Dead Cells",
+  "steamAppId": 588650,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\save"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\588650\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\MotionTwin\\DeadCells"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\MotionTwin.DeadCellsWin10_rtjy889c6zgtg\\LocalCache\\Local\\MotionTwin\\DeadCells"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dead_Cells",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/library_600x900.jpg"
+ },
+ {
+  "id": "934700",
+  "name": "Dead Island 2",
+  "steamAppId": 934700,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%LOCALAPPDATA%\\DeadIsland\\Saved\\SaveGames"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\DeadIslandSteam\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\DeepSilver.578840CD64788_hmv7qcest37me\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dead_Island_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/934700/library_600x900.jpg"
+ },
+ {
+  "id": "1693980",
+  "name": "Dead Space (2023)",
+  "steamAppId": 1693980,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Dead Space (2023)\\settings"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Dead Space (2023)\\settings\\steam"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dead_Space_(2023)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/library_600x900.jpg"
+ },
+ {
+  "id": "1850570",
+  "name": "Death Stranding Director's Cut",
+  "steamAppId": 1850570,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\KojimaProductions\\DeathStrandingDC\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\KojimaProductions\\DeathStrandingDC\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director's_Cut",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/library_600x900.jpg"
+ },
+ {
+  "id": "548430",
+  "name": "Deep Rock Galactic",
+  "steamAppId": 548430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\FSD\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/548430/library_600x900.jpg"
+ },
+ {
+  "id": "2321470",
+  "name": "Deep Rock Galactic: Survivor",
+  "steamAppId": 2321470,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Funday Games\\DRG Survivor"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Funday Games\\DRG Survivor\\steam"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic%3A_Survivor",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2321470/library_600x900.jpg"
+ },
+ {
+  "id": "601150",
+  "name": "Devil May Cry 5",
+  "steamAppId": 601150,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\601150\\remote\\win64_save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Devil_May_Cry_5",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/601150/library_600x900.jpg"
+ },
+ {
+  "id": "1062520",
+  "name": "Dinkum",
+  "steamAppId": 1062520,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\James Bendon\\Dinkum"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dinkum",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1062520/library_600x900.jpg"
+ },
+ {
+  "id": "690790",
+  "name": "DiRT Rally 2.0",
+  "steamAppId": 690790,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\690790\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\CodemastersSoftwareCompan.DiRTRally2.0Windows_4cfye3zbe1gaw\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/DiRT_Rally_2.0",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/690790/library_600x900.jpg"
+ },
+ {
+  "id": "632470",
+  "name": "Disco Elysium",
+  "steamAppId": 632470,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\ZAUM Studio\\Disco Elysium\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Disco_Elysium",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/632470/library_600x900.jpg"
+ },
+ {
+  "id": "373420",
+  "name": "Divinity: Original Sin - Enhanced Edition",
+  "steamAppId": 373420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Larian Studios\\Divinity Original Sin Enhanced Edition\\PlayerProfiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Divinity%3A_Original_Sin_-_Enhanced_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/373420/library_600x900.jpg"
+ },
+ {
+  "id": "435150",
+  "name": "Divinity: Original Sin II",
+  "steamAppId": 435150,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Larian Studios\\Divinity Original Sin 2\\PlayerProfiles\\<ID do perfil>\\Savegames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Divinity%3A_Original_Sin_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/library_600x900.jpg"
+ },
+ {
+  "id": "960170",
+  "name": "DJMax Respect V",
+  "steamAppId": 960170,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Neowiz\\DJMAX RESPECT V\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Neowiz.DJMAXRESPECTV_r4z3116tdh636\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/DJMax_Respect_V",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/library_600x900.jpg"
+ },
+ {
+  "id": "698780",
+  "name": "Doki Doki Literature Club!",
+  "steamAppId": 698780,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\RenPy\\DDLC-1454445547"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club!",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/698780/library_600x900.jpg"
+ },
+ {
+  "id": "219740",
+  "name": "Don't Starve",
+  "steamAppId": 219740,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\219740\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Klei\\DoNotStarve\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Don't_Starve",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/219740/library_600x900.jpg"
+ },
+ {
+  "id": "322330",
+  "name": "Don't Starve Together",
+  "steamAppId": 322330,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Klei\\DoNotStarveTogether\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Klei\\DoNotStarveTogether\\client_save"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Klei\\DoNotStarveTogether\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Don't_Starve_Together",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/library_600x900.jpg"
+ },
+ {
+  "id": "782330",
+  "name": "Doom Eternal",
+  "steamAppId": 782330,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\id Software\\DOOMEternal\\base"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\782330\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\BethesdaSoftworks.DOOMEternal-PC_3275kfvn8vcwc\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Doom_Eternal",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_600x900.jpg"
+ },
+ {
+  "id": "3017860",
+  "name": "Doom: The Dark Ages",
+  "steamAppId": 3017860,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\3017860\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\BethesdaSoftworks.ProjectTitan_3275kfvn8vcwc\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Doom%3A_The_Dark_Ages",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3017860/library_600x900.jpg"
+ },
+ {
+  "id": "454650",
+  "name": "Dragon Ball Xenoverse 2",
+  "steamAppId": 454650,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\323470\\remote\\DBXV21"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\NAMCOBANDAIGamesInc.DBXV2BaseGame_gdy2aq6ez762w\\SystemAppData\\wgs\\000900000730DEF8_7D520100D0DD470EAE79336D3CC3BCFC"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dragon_Ball_Xenoverse_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/454650/library_600x900.jpg"
+ },
+ {
+  "id": "2054970",
+  "name": "Dragon's Dogma 2",
+  "steamAppId": 2054970,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\2054970\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dragon's_Dogma_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_600x900.jpg"
+ },
+ {
+  "id": "975370",
+  "name": "Dwarf Fortress",
+  "steamAppId": 975370,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Bay 12 Games\\Dwarf Fortress\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dwarf_Fortress",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/975370/library_600x900.jpg"
+ },
+ {
+  "id": "239140",
+  "name": "Dying Light",
+  "steamAppId": 239140,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\239140\\remote\\out"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Dying Light\\out\\save"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\DyingLight\\out\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dying_Light",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/239140/library_600x900.jpg"
+ },
+ {
+  "id": "534380",
+  "name": "Dying Light 2 Stay Human",
+  "steamAppId": 534380,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\534380\\remote\\out\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dying_Light_2_Stay_Human",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/534380/library_600x900.jpg"
+ },
+ {
+  "id": "2384580",
+  "name": "Dynasty Warriors: Origins",
+  "steamAppId": 2384580,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\KoeiTecmo\\DYNASTY WARRIORS ORIGINS\\Saved\\SaveGames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Dynasty_Warriors%3A_Origins",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2384580/library_600x900.jpg"
+ },
+ {
+  "id": "3405690",
+  "name": "EA Sports FC 26",
+  "steamAppId": 3405690,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\EA SPORTS FC 26\\settings"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/EA_Sports_FC_26",
+  "cover": null
+ },
+ {
+  "id": "1245620",
+  "name": "Elden Ring",
+  "steamAppId": 1245620,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\EldenRing\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Elden_Ring",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_600x900.jpg"
+ },
+ {
+  "id": "2622380",
+  "name": "Elden Ring Nightreign",
+  "steamAppId": 2622380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Nightreign\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Elden_Ring_Nightreign",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2622380/library_600x900.jpg"
+ },
+ {
+  "id": "10500",
+  "name": "Empire: Total War",
+  "steamAppId": 10500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Empire\\save_games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Empire%3A_Total_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/10500/library_600x900.jpg"
+ },
+ {
+  "id": "383120",
+  "name": "Empyrion - Galactic Survival",
+  "steamAppId": 383120,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Survival",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/383120/library_600x900.jpg"
+ },
+ {
+  "id": "1203620",
+  "name": "Enshrouded",
+  "steamAppId": 1203620,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1203620\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Enshrouded",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/library_600x900.jpg"
+ },
+ {
+  "id": "1943950",
+  "name": "Escape the Backrooms",
+  "steamAppId": 1943950,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\EscapeTheBackrooms\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Escape_the_Backrooms",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1943950/library_600x900.jpg"
+ },
+ {
+  "id": "1049590",
+  "name": "Eternal Return: Black Survival",
+  "steamAppId": 1049590,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\NimbleNeuron\\BlackSurvivalER"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Eternal_Return%3A_Black_Survival",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1049590/library_600x900.jpg"
+ },
+ {
+  "id": "227300",
+  "name": "Euro Truck Simulator 2",
+  "steamAppId": 227300,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\227300\\remote\\profiles\\<ID do perfil>\\save"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Euro Truck Simulator 2\\profiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Euro_Truck_Simulator_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/227300/library_600x900.jpg"
+ },
+ {
+  "id": "236850",
+  "name": "Europa Universalis IV",
+  "steamAppId": 236850,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Europa Universalis IV"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Europa_Universalis_IV",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/236850/library_600x900.jpg"
+ },
+ {
+  "id": "427520",
+  "name": "Factorio",
+  "steamAppId": 427520,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Factorio\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Factorio",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/library_600x900.jpg"
+ },
+ {
+  "id": "377160",
+  "name": "Fallout 4",
+  "steamAppId": 377160,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Fallout4\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Fallout_4",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/library_600x900.jpg"
+ },
+ {
+  "id": "588430",
+  "name": "Fallout Shelter",
+  "steamAppId": 588430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\FalloutShelter"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\BethesdaSoftworks.FalloutShelter_3275kfvn8vcwc\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Fallout_Shelter",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/588430/library_600x900.jpg"
+ },
+ {
+  "id": "22380",
+  "name": "Fallout: New Vegas",
+  "steamAppId": 22380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FalloutNV\\Saves"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FalloutNV_Epic\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Fallout%3A_New_Vegas",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/library_600x900.jpg"
+ },
+ {
+  "id": "552520",
+  "name": "Far Cry 5",
+  "steamAppId": 552520,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\4311"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Far_Cry_5",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/library_600x900.jpg"
+ },
+ {
+  "id": "2369390",
+  "name": "Far Cry 6",
+  "steamAppId": 2369390,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\920"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Far_Cry_6",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/library_600x900.jpg"
+ },
+ {
+  "id": "787860",
+  "name": "Farming Simulator 19",
+  "steamAppId": 787860,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FarmingSimulator2019"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\FocusHomeInteractiveSA.FarmingSimulator19-Window10_4hny5m903y3g0\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_19",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/787860/library_600x900.jpg"
+ },
+ {
+  "id": "2300320",
+  "name": "Farming Simulator 25",
+  "steamAppId": 2300320,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FarmingSimulator2025"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\GIANTSSoftware.FarmingSimulator25PC_fa8jxm5fj0esw\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_25",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2300320/library_600x900.jpg"
+ },
+ {
+  "id": "1044720",
+  "name": "Farthest Frontier",
+  "steamAppId": 1044720,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Saved Games\\Farthest Frontier\\Save"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Farthest Frontier\\Save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Farthest_Frontier",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1044720/library_600x900.jpg"
+ },
+ {
+  "id": "2142790",
+  "name": "Fields of Mistria",
+  "steamAppId": 2142790,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\FieldsOfMistria\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Fields_of_Mistria",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2142790/library_600x900.jpg"
+ },
+ {
+  "id": "2909400",
+  "name": "Final Fantasy VII Rebirth",
+  "steamAppId": 2909400,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY VII REBIRTH\\Steam\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_VII_Rebirth",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2909400/library_600x900.jpg"
+ },
+ {
+  "id": "1462040",
+  "name": "Final Fantasy VII Remake Intergrade",
+  "steamAppId": 1462040,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY VII REMAKE\\EOS"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY VII REMAKE\\Steam"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_VII_Remake_Intergrade",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/library_600x900.jpg"
+ },
+ {
+  "id": "637650",
+  "name": "Final Fantasy XV",
+  "steamAppId": 637650,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\637650\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY XV\\Origin\\savestorage"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY XV\\Steam\\<ID do perfil>\\savestorage"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\39EA002F.FINALFANTASYXVforPC_n746a19ndrrjg\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_XV",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/637650/library_600x900.jpg"
+ },
+ {
+  "id": "2515020",
+  "name": "Final Fantasy XVI",
+  "steamAppId": 2515020,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY XVI"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_XVI",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2515020/library_600x900.jpg"
+ },
+ {
+  "id": "4530370",
+  "name": "Football Manager 27",
+  "steamAppId": 4530370,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Sports Interactive\\Football Manager 27\\cloud"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Football_Manager_27",
+  "cover": null
+ },
+ {
+  "id": "527230",
+  "name": "For the King",
+  "steamAppId": 527230,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\IronOak Games\\FTK\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/For_the_King",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/527230/library_600x900.jpg"
+ },
+ {
+  "id": "1551360",
+  "name": "Forza Horizon 5",
+  "steamAppId": 1551360,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1551360\\remote\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Microsoft.624F8B84B80_8wekyb3d8bbwe\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Forza_Horizon_5",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/library_600x900.jpg"
+ },
+ {
+  "id": "2483190",
+  "name": "Forza Horizon 6",
+  "steamAppId": 2483190,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\ForzaHorizon6\\LocalStorage_Shared\\User_<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "C:\\XboxGames\\GameSave\\pgs\\u_<ID do perfil>_16D460"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Forza_Horizon_6",
+  "cover": null
+ },
+ {
+  "id": "690830",
+  "name": "Foundation",
+  "steamAppId": 690830,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Polymorph Games\\Foundation\\Save Game"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Foundation",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/690830/library_600x900.jpg"
+ },
+ {
+  "id": "323190",
+  "name": "Frostpunk",
+  "steamAppId": 323190,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\323190\\remote\\saves"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\11bitstudios\\Frostpunk\\Default\\saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\11bitstudios.Frostpunk_gwy9gn5q9j1y6\\LocalState\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Frostpunk",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/library_600x900.jpg"
+ },
+ {
+  "id": "1601580",
+  "name": "Frostpunk 2",
+  "steamAppId": 1601580,
+  "savePaths": [
+   {
+    "store": "GOG",
+    "path": "%LOCALAPPDATA%\\11bitstudios\\Frostpunk2\\GOG\\Saved\\SaveGames"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\11bitstudios\\Frostpunk2\\Steam\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\4063811bitstudios.Frostpunk2ConsoleEdition_gwy9gn5q9j1y6\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Frostpunk_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1601580/library_600x900.jpg"
+ },
+ {
+  "id": "212680",
+  "name": "FTL: Faster Than Light",
+  "steamAppId": 212680,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\FasterThanLight"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/FTL%3A_Faster_Than_Light",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/212680/library_600x900.jpg"
+ },
+ {
+  "id": "4000",
+  "name": "Garry's Mod",
+  "steamAppId": 4000,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\garrysmod\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Garry's_Mod",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/library_600x900.jpg"
+ },
+ {
+  "id": "400750",
+  "name": "Gates of Hell",
+  "steamAppId": 400750,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\gates of hell\\profiles\\\"string of numbers\""
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Gates_of_Hell",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/400750/library_600x900.jpg"
+ },
+ {
+  "id": "322170",
+  "name": "Geometry Dash",
+  "steamAppId": 322170,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\GeometryDash"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Geometry_Dash",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/library_600x900.jpg"
+ },
+ {
+  "id": "2215430",
+  "name": "Ghost of Tsushima Director's Cut",
+  "steamAppId": 2215430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Ghost of Tsushima DIRECTOR'S CUT\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Ghost_of_Tsushima_Director's_Cut",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/library_600x900.jpg"
+ },
+ {
+  "id": "1593500",
+  "name": "God of War",
+  "steamAppId": 1593500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\God of War"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/God_of_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_600x900.jpg"
+ },
+ {
+  "id": "2322010",
+  "name": "God of War Ragnarök",
+  "steamAppId": 2322010,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\God of War Ragnarök\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/God_of_War_Ragnar%C3%B6k",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/library_600x900.jpg"
+ },
+ {
+  "id": "1029780",
+  "name": "Going Medieval",
+  "steamAppId": 1029780,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Foxy Voxel\\Going Medieval\\VillageSaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Going_Medieval",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1029780/library_600x900.jpg"
+ },
+ {
+  "id": "431240",
+  "name": "Golf with Your Friends",
+  "steamAppId": 431240,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team17 Digital Ltd\\Golf With Your Friends"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Team17DigitalLimited.GolfWithYourFriendsWin10_j5x4vj4y67jhc\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Golf_with_Your_Friends",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/library_600x900.jpg"
+ },
+ {
+  "id": "2027330",
+  "name": "Gorebox",
+  "steamAppId": 2027330,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\GoreBox"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Gorebox",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2027330/library_600x900.jpg"
+ },
+ {
+  "id": "881020",
+  "name": "Granblue Fantasy: Relink",
+  "steamAppId": 881020,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\GBFR\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Granblue_Fantasy%3A_Relink",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/881020/library_600x900.jpg"
+ },
+ {
+  "id": "12210",
+  "name": "Grand Theft Auto IV",
+  "steamAppId": 12210,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Rockstar Games\\GTA IV\\Profiles\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Rockstar Games\\GTA IV\\savegames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/12210/library_600x900.jpg"
+ },
+ {
+  "id": "271590",
+  "name": "Grand Theft Auto V",
+  "steamAppId": 271590,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Rockstar Games\\GTA V\\Profiles\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%PROGRAMDATA%\\Socialclub\\Player"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_600x900.jpg"
+ },
+ {
+  "id": "3240220",
+  "name": "Grand Theft Auto V Enhanced",
+  "steamAppId": 3240220,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Rockstar Games\\GTAV Enhanced\\Profiles\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3240220/library_600x900.jpg"
+ },
+ {
+  "id": "599140",
+  "name": "Graveyard Keeper",
+  "steamAppId": 599140,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Graveyard_Keeper",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/library_600x900.jpg"
+ },
+ {
+  "id": "815370",
+  "name": "Green Hell",
+  "steamAppId": 815370,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\815370\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Green_Hell",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/library_600x900.jpg"
+ },
+ {
+  "id": "219990",
+  "name": "Grim Dawn",
+  "steamAppId": 219990,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\219990\\remote\\save"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Grim Dawn\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Grim_Dawn",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/219990/library_600x900.jpg"
+ },
+ {
+  "id": "962130",
+  "name": "Grounded",
+  "steamAppId": 962130,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Saved Games\\Grounded"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Microsoft.Maine_8wekyb3d8bbwe\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Grounded",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/962130/library_600x900.jpg"
+ },
+ {
+  "id": "70",
+  "name": "Half-Life",
+  "steamAppId": 70,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\valve\\SAVE"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Half-Life",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/70/library_600x900.jpg"
+ },
+ {
+  "id": "220",
+  "name": "Half-Life 2",
+  "steamAppId": 220,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\hl2\\cfg"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\hl2\\save"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\220\\remote\\ROOT_MOD\\cfg"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Half-Life_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/220/library_600x900.jpg"
+ },
+ {
+  "id": "976730",
+  "name": "Halo: The Master Chief Collection",
+  "steamAppId": 976730,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\976730\\remote\\<ID do perfil>\\Saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Microsoft.Chelan_8wekyb3d8bbwe\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Halo%3A_The_Master_Chief_Collection",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/library_600x900.jpg"
+ },
+ {
+  "id": "394360",
+  "name": "Hearts of Iron IV",
+  "steamAppId": 394360,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Hearts of Iron IV\\save games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Hearts_of_Iron_IV",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/394360/library_600x900.jpg"
+ },
+ {
+  "id": "553850",
+  "name": "Helldivers 2",
+  "steamAppId": 553850,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Arrowhead\\Helldivers2\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Helldivers_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_600x900.jpg"
+ },
+ {
+  "id": "297000",
+  "name": "Heroes of Might and Magic III - HD Edition",
+  "steamAppId": 297000,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Ubisoft\\Heroes of Might & Magic III - HD Edition\\pref"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Heroes_of_Might_and_Magic_III_-_HD_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/library_600x900.jpg"
+ },
+ {
+  "id": "1659040",
+  "name": "Hitman: World of Assassination",
+  "steamAppId": 1659040,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1659040\\remote"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\IO Interactive\\Epic\\<ID do perfil>\\HITMAN3"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\IOInteractiveAS.PC-HITMAN3-BaseGame_6h0y724g59e1w\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Hitman%3A_World_of_Assassination",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659040/library_600x900.jpg"
+ },
+ {
+  "id": "990080",
+  "name": "Hogwarts Legacy",
+  "steamAppId": 990080,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Hogwarts Legacy\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Hogwarts\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\HogwartsLegacy\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\WarnerBros.Interactive.PHX_ktmk1xygcecda\\SystemAppData\\wgs\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Phoenix\\Saved\\SaveGames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Hogwarts_Legacy",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_600x900.jpg"
+ },
+ {
+  "id": "367520",
+  "name": "Hollow Knight",
+  "steamAppId": 367520,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team Cherry\\Hollow Knight"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%PROGRAMDATA%\\Packages\\TeamCherry.15373CD61C66B_y4jvztpgccj42\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Hollow_Knight",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/library_600x900.jpg"
+ },
+ {
+  "id": "613100",
+  "name": "House Flipper",
+  "steamAppId": 613100,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Empyrean\\House Flipper Game\\Profiles"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Empyrean\\House Flipper Game\\Profiles.backup"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/House_Flipper",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/613100/library_600x900.jpg"
+ },
+ {
+  "id": "477160",
+  "name": "Human: Fall Flat",
+  "steamAppId": 477160,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\NoBrakesGames\\Human"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\477160\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\CurveDigital.HumanFallFlat_1ezqdnbhnc70m\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Human%3A_Fall_Flat",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/477160/library_600x900.jpg"
+ },
+ {
+  "id": "627690",
+  "name": "Idle Champions of the Forgotten Realms",
+  "steamAppId": 627690,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Games saved on remote server."
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Idle_Champions_of_the_Forgotten_Realms",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/627690/library_600x900.jpg"
+ },
+ {
+  "id": "581320",
+  "name": "Insurgency: Sandstorm",
+  "steamAppId": 581320,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Insurgency\\Saved\\SaveGames\\Profile"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Insurgency%3A_Sandstorm",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/581320/library_600x900.jpg"
+ },
+ {
+  "id": "2456740",
+  "name": "InZOI",
+  "steamAppId": 2456740,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\My Documents\\inZOI\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/InZOI",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2456740/library_600x900.jpg"
+ },
+ {
+  "id": "1426210",
+  "name": "It Takes Two",
+  "steamAppId": 1426210,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\ItTakesTwo"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/It_Takes_Two",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/library_600x900.jpg"
+ },
+ {
+  "id": "225540",
+  "name": "Just Cause 3",
+  "steamAppId": 225540,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Square Enix\\Just Cause 3\\Saves\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Just_Cause_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/library_600x900.jpg"
+ },
+ {
+  "id": "233860",
+  "name": "Kenshi",
+  "steamAppId": 233860,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Kenshi\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kenshi",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/233860/library_600x900.jpg"
+ },
+ {
+  "id": "220200",
+  "name": "Kerbal Space Program",
+  "steamAppId": 220200,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kerbal_Space_Program",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/220200/library_600x900.jpg"
+ },
+ {
+  "id": "379430",
+  "name": "Kingdom Come: Deliverance",
+  "steamAppId": 379430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\kingdomcome\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kingdom_Come%3A_Deliverance",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/library_600x900.jpg"
+ },
+ {
+  "id": "1771300",
+  "name": "Kingdom Come: Deliverance II",
+  "steamAppId": 1771300,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\kingdomcome2\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kingdom_Come%3A_Deliverance_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1771300/library_600x900.jpg"
+ },
+ {
+  "id": "246420",
+  "name": "Kingdom Rush",
+  "steamAppId": 246420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\kingdom_rush"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kingdom_Rush",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/246420/library_600x900.jpg"
+ },
+ {
+  "id": "701160",
+  "name": "Kingdom: Two Crowns",
+  "steamAppId": 701160,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\noio\\KingdomTwoCrowns\\Release\\global-v35"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\RawFury.0a615e32-96fb-4bd7-a194-f1dc1fdb4f1f_9s0pnehqffj7t\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Kingdom%3A_Two_Crowns",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/library_600x900.jpg"
+ },
+ {
+  "id": "899770",
+  "name": "Last Epoch",
+  "steamAppId": 899770,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Eleventh Hour Games\\Last Epoch\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Last_Epoch",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/899770/library_600x900.jpg"
+ },
+ {
+  "id": "1468260",
+  "name": "Leaf Blower Revolution",
+  "steamAppId": 1468260,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\blow_the_leaves_away"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Leaf_Blower_Revolution",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1468260/library_600x900.jpg"
+ },
+ {
+  "id": "550",
+  "name": "Left 4 Dead 2",
+  "steamAppId": 550,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\550\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Left_4_Dead_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/library_600x900.jpg"
+ },
+ {
+  "id": "1966720",
+  "name": "Lethal Company",
+  "steamAppId": 1966720,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\ZeekerssRBLX\\Lethal Company"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Lethal_Company",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/library_600x900.jpg"
+ },
+ {
+  "id": "1627720",
+  "name": "Lies of P",
+  "steamAppId": 1627720,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\LiesofP\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Neowiz.3616725F496B_r4z3116tdh636\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Lies_of_P",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_600x900.jpg"
+ },
+ {
+  "id": "532210",
+  "name": "Life Is Strange 2",
+  "steamAppId": 532210,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Dontnod\\<ID do perfil>\\LIS2\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Life_Is_Strange_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/library_600x900.jpg"
+ },
+ {
+  "id": "568220",
+  "name": "Lobotomy Corporation",
+  "steamAppId": 568220,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Project_Moon\\Lobotomy"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Lobotomy_Corporation",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/568220/library_600x900.jpg"
+ },
+ {
+  "id": "1501750",
+  "name": "Lords of the Fallen (2023)",
+  "steamAppId": 1501750,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\LOTF2\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\CIGamesS.A.LordsoftheFallen-PC_9609msxhzdsvj\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Lords_of_the_Fallen_(2023)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1501750/library_600x900.jpg"
+ },
+ {
+  "id": "234140",
+  "name": "Mad Max",
+  "steamAppId": 234140,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\234140\\remote"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\WB Games\\Mad Max\\Backup Saves"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\WB Games\\Mad Max\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mad_Max",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/234140/library_600x900.jpg"
+ },
+ {
+  "id": "1030830",
+  "name": "Mafia II: Definitive Edition",
+  "steamAppId": 1030830,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Mafia II Definitive Edition\\Saves\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030830/library_600x900.jpg"
+ },
+ {
+  "id": "360430",
+  "name": "Mafia III",
+  "steamAppId": 360430,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\2K Games\\Mafia III\\Data\\<ID do perfil>\\gamesaves\\default\\aslot"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mafia_III",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/library_600x900.jpg"
+ },
+ {
+  "id": "1030840",
+  "name": "Mafia: Definitive Edition",
+  "steamAppId": 1030840,
+  "savePaths": [
+   {
+    "store": "GOG",
+    "path": "Pasta do jogo\\user\\Data\\Saves\\gamesaves"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Mafia Definitive Edition\\Data\\<ID do perfil>\\gamesaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mafia%3A_Definitive_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030840/library_600x900.jpg"
+ },
+ {
+  "id": "2651280",
+  "name": "Marvel's Spider-Man 2",
+  "steamAppId": 2651280,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Marvel's Spider-Man 2\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Marvel's_Spider-Man_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/library_600x900.jpg"
+ },
+ {
+  "id": "1817070",
+  "name": "Marvel's Spider-Man Remastered",
+  "steamAppId": 1817070,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Marvel's Spider-Man Remastered\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Marvel's_Spider-Man_Remastered",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/library_600x900.jpg"
+ },
+ {
+  "id": "1817190",
+  "name": "Marvel's Spider-Man: Miles Morales",
+  "steamAppId": 1817190,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Marvel's Spider-Man Miles Morales\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Marvel's_Spider-Man%3A_Miles_Morales",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817190/library_600x900.jpg"
+ },
+ {
+  "id": "784080",
+  "name": "MechWarrior 5: Mercenaries",
+  "steamAppId": 784080,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\MW5Mercs\\Saved"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/MechWarrior_5%3A_Mercenaries",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/784080/library_600x900.jpg"
+ },
+ {
+  "id": "4700",
+  "name": "Medieval II: Total War",
+  "steamAppId": 4700,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Medieval_II%3A_Total_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/library_600x900.jpg"
+ },
+ {
+  "id": "244450",
+  "name": "Men of War: Assault Squad 2",
+  "steamAppId": 244450,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\men of war - assault squad 2\\profiles\\<ID do perfil>\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Men_of_War%3A_Assault_Squad_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/244450/library_600x900.jpg"
+ },
+ {
+  "id": "287700",
+  "name": "Metal Gear Solid V: The Phantom Pain",
+  "steamAppId": 287700,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\287700\\local"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\311340\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Metal_Gear_Solid_V%3A_The_Phantom_Pain",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/287700/library_600x900.jpg"
+ },
+ {
+  "id": "2679460",
+  "name": "Metaphor: ReFantazio",
+  "steamAppId": 2679460,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\SEGA\\METAPHOR\\Steam\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\SEGAofAmericaInc.49826310F738C_s751p9cej88mt\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Metaphor%3A_ReFantazio",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/library_600x900.jpg"
+ },
+ {
+  "id": "286690",
+  "name": "Metro 2033 Redux",
+  "steamAppId": 286690,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\4A Games\\Metro 2033"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\4A Games\\Metro 2033"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\4A Games\\Metro 2033\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\DeepSilver.Metro2033Redux_hmv7qcest37me\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Metro_2033_Redux",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/library_600x900.jpg"
+ },
+ {
+  "id": "412020",
+  "name": "Metro Exodus",
+  "steamAppId": 412020,
+  "savePaths": [
+   {
+    "store": "GOG",
+    "path": "Pasta do jogo\\saved_games"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\metro exodus"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\DeepSilver.ProjectWindfall_hmv7qcest37me\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Metro_Exodus",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/library_600x900.jpg"
+ },
+ {
+  "id": "287390",
+  "name": "Metro: Last Light Redux",
+  "steamAppId": 287390,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\4A Games\\Metro Last Light"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\4A Games\\Metro Last Light\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\DeepSilver.MetroLastLightRedux_hmv7qcest37me\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Metro%3A_Last_Light_Redux",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/library_600x900.jpg"
+ },
+ {
+  "id": "686060",
+  "name": "Mewgenics",
+  "steamAppId": 686060,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Glaiel Games\\Mewgenics\\<ID do perfil>\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mewgenics",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/686060/library_600x900.jpg"
+ },
+ {
+  "id": "241930",
+  "name": "Middle-earth: Shadow of Mordor",
+  "steamAppId": 241930,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\241930\\remote"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\WB Games\\Shadow of Mordor\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_Mordor",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/241930/library_600x900.jpg"
+ },
+ {
+  "id": "356190",
+  "name": "Middle-earth: Shadow of War",
+  "steamAppId": 356190,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\356190\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\6DA520A3.1673586F56C6C_ykvmsk3s73586\\SystemAppData\\wgs\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\WB Games\\Shadow of War"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/356190/library_600x900.jpg"
+ },
+ {
+  "id": "489520",
+  "name": "Minion Masters",
+  "steamAppId": 489520,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\489520\\remote\\profile_v1"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Minion_Masters",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/489520/library_600x900.jpg"
+ },
+ {
+  "id": "1446780",
+  "name": "Monster Hunter Rise",
+  "steamAppId": 1446780,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1446780\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\F024294D.50755C2F12831_8fty0by30jkny\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Monster_Hunter_Rise",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/library_600x900.jpg"
+ },
+ {
+  "id": "2246340",
+  "name": "Monster Hunter Wilds",
+  "steamAppId": 2246340,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\2246340\\remote\\win64_save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Monster_Hunter_Wilds",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2246340/library_600x900.jpg"
+ },
+ {
+  "id": "582010",
+  "name": "Monster Hunter: World",
+  "steamAppId": 582010,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\582010\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Monster_Hunter%3A_World",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_600x900.jpg"
+ },
+ {
+  "id": "976310",
+  "name": "Mortal Kombat 11",
+  "steamAppId": 976310,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\976310\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mortal_Kombat_11",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/library_600x900.jpg"
+ },
+ {
+  "id": "261550",
+  "name": "Mount & Blade II: Bannerlord",
+  "steamAppId": 261550,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Mount and Blade II Bannerlord\\Game Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Mount_%26_Blade_II%3A_Bannerlord",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/261550/library_600x900.jpg"
+ },
+ {
+  "id": "774171",
+  "name": "Muse Dash",
+  "steamAppId": 774171,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Steam\\MuseDash"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Muse_Dash",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/774171/library_600x900.jpg"
+ },
+ {
+  "id": "1419170",
+  "name": "My Singing Monsters",
+  "steamAppId": 1419170,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Big Blue Bubble Inc\\My Singing Monsters\\1"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/My_Singing_Monsters",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1419170/library_600x900.jpg"
+ },
+ {
+  "id": "516750",
+  "name": "My Summer Car",
+  "steamAppId": 516750,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Amistech\\My Summer Car"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/My_Summer_Car",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/516750/library_600x900.jpg"
+ },
+ {
+  "id": "34030",
+  "name": "Napoleon: Total War",
+  "steamAppId": 34030,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Napoleon\\save_games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Napoleon%3A_Total_War",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/34030/library_600x900.jpg"
+ },
+ {
+  "id": "1203220",
+  "name": "Naraka: Bladepoint",
+  "steamAppId": 1203220,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\24Entertainment\\Naraka"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Naraka%3A_Bladepoint",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203220/library_600x900.jpg"
+ },
+ {
+  "id": "1846380",
+  "name": "Need for Speed Unbound",
+  "steamAppId": 1846380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Need For Speed(TM) Unbound\\SaveGame"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Need_for_Speed_Unbound",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1846380/library_600x900.jpg"
+ },
+ {
+  "id": "524220",
+  "name": "NieR: Automata",
+  "steamAppId": 524220,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\NieR_Automata"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\39EA002F.NieRAutomataPC_n746a19ndrrjg\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/NieR%3A_Automata",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/library_600x900.jpg"
+ },
+ {
+  "id": "275850",
+  "name": "No Man's Sky",
+  "steamAppId": 275850,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\HelloGames\\NMS"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\HelloGames.NoMansSky_bs190hzg1sesy\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/No_Man's_Sky",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/275850/library_600x900.jpg"
+ },
+ {
+  "id": "881100",
+  "name": "Noita",
+  "steamAppId": 881100,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Nolla_Games_Noita\\save00"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Noita",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/881100/library_600x900.jpg"
+ },
+ {
+  "id": "466560",
+  "name": "Northgard",
+  "steamAppId": 466560,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Northgard",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/466560/library_600x900.jpg"
+ },
+ {
+  "id": "2551020",
+  "name": "One-armed robber",
+  "steamAppId": 2551020,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\OAR\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/One-armed_robber",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2551020/library_600x900.jpg"
+ },
+ {
+  "id": "1057090",
+  "name": "Ori and the Will of the Wisps",
+  "steamAppId": 1057090,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Ori and the Will of The Wisps"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Microsoft.Patagonia_8wekyb3d8bbwe\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Ori_and_the_Will_of_the_Wisps",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1057090/library_600x900.jpg"
+ },
+ {
+  "id": "753640",
+  "name": "Outer Wilds",
+  "steamAppId": 753640,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Mobius Digital\\Outer Wilds\\Saves"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Mobius Digital\\Outer Wilds\\SteamSaves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\AnnapurnaInteractive.OuterWilds_c96c51jf6wkvm\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Outer_Wilds",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/library_600x900.jpg"
+ },
+ {
+  "id": "728880",
+  "name": "Overcooked! 2",
+  "steamAppId": 728880,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team17\\Overcooked2\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%Packages\\Team17DigitalLimited.Overcooked2Win10_j5x4vj4y67jhc\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Overcooked!_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/library_600x900.jpg"
+ },
+ {
+  "id": "457140",
+  "name": "Oxygen Not Included",
+  "steamAppId": 457140,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Klei\\OxygenNotIncluded\\cloud_save_files\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Klei\\OxygenNotIncluded\\save_files"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Oxygen_Not_Included",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/457140/library_600x900.jpg"
+ },
+ {
+  "id": "1623730",
+  "name": "Palworld",
+  "steamAppId": 1623730,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\PocketpairInc.Palworld_ad4psfrxyesvt\\SystemAppData\\wgs\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Pal\\Saved\\SaveGames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Palworld",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/library_600x900.jpg"
+ },
+ {
+  "id": "218620",
+  "name": "Payday 2",
+  "steamAppId": 218620,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\218620\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\PAYDAY 2\\saves\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Payday_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/218620/library_600x900.jpg"
+ },
+ {
+  "id": "2161700",
+  "name": "Persona 3 Reload",
+  "steamAppId": 2161700,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\SEGA\\P3R\\Steam\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\SEGAofAmericaInc.L0cb6b3aea_s751p9cej88mt\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Persona_3_Reload",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161700/library_600x900.jpg"
+ },
+ {
+  "id": "1687950",
+  "name": "Persona 5 Royal",
+  "steamAppId": 1687950,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\SEGA\\P5R\\Steam\\<ID do perfil>\\savedata"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\SEGAofAmericaInc.F0cb6b3aer_s751p9cej88mt\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Persona_5_Royal",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/library_600x900.jpg"
+ },
+ {
+  "id": "4115450",
+  "name": "Phantom Blade Zero",
+  "steamAppId": 4115450,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\ProjectPBZ\\Saved\\SaveGames\\Steam\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Phantom_Blade_Zero",
+  "cover": null
+ },
+ {
+  "id": "739630",
+  "name": "Phasmophobia",
+  "steamAppId": 739630,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Kinetic Games\\Phasmophobia"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Phasmophobia",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/library_600x900.jpg"
+ },
+ {
+  "id": "703080",
+  "name": "Planet Zoo",
+  "steamAppId": 703080,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\Frontier Developments\\Planet Zoo\\<ID do perfil>\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Planet_Zoo",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/703080/library_600x900.jpg"
+ },
+ {
+  "id": "3590",
+  "name": "Plants vs. Zombies",
+  "steamAppId": 3590,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\3590\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%PROGRAMDATA%\\PopCap Games\\PlantsVsZombies\\userdata"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Plants_vs._Zombies",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/library_600x900.jpg"
+ },
+ {
+  "id": "1922560",
+  "name": "Plants vs. Zombies: Garden Warfare 2",
+  "steamAppId": 1922560,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Plants vs Zombies GW2"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Plants_vs._Zombies%3A_Garden_Warfare_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1922560/library_600x900.jpg"
+ },
+ {
+  "id": "1599600",
+  "name": "PlateUp!",
+  "steamAppId": 1599600,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\It's Happening\\PlateUp"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/PlateUp!",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1599600/library_600x900.jpg"
+ },
+ {
+  "id": "1721470",
+  "name": "Poppy Playtime",
+  "steamAppId": 1721470,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Playtime_Prototype4\\Saved\\SaveGames"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Poppy_Playtime\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Poppy_Playtime",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1721470/library_600x900.jpg"
+ },
+ {
+  "id": "620",
+  "name": "Portal 2",
+  "steamAppId": 620,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo\\portal2\\SAVE"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\620\\remote\\cfg"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Portal_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/library_600x900.jpg"
+ },
+ {
+  "id": "4348910",
+  "name": "Probably Stolen",
+  "steamAppId": 4348910,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Questing Goose Studio\\Probably Stolen"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Probably_Stolen",
+  "cover": null
+ },
+ {
+  "id": "108600",
+  "name": "Project Zomboid",
+  "steamAppId": 108600,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Zomboid\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Project_Zomboid",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/library_600x900.jpg"
+ },
+ {
+  "id": "880940",
+  "name": "Pummel Party",
+  "steamAppId": 880940,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Rebuilt Games\\Pummel Party"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Pummel_Party",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/880940/library_600x900.jpg"
+ },
+ {
+  "id": "3241660",
+  "name": "R.E.P.O.",
+  "steamAppId": 3241660,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\semiwork\\Repo\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/R.E.P.O.",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3241660/library_600x900.jpg"
+ },
+ {
+  "id": "648800",
+  "name": "Raft",
+  "steamAppId": 648800,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Redbeet Interactive\\Raft\\User\\User_<ID do perfil>\\Player"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Redbeet Interactive\\Raft\\User\\User_<ID do perfil>\\World"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Raft",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/library_600x900.jpg"
+ },
+ {
+  "id": "312520",
+  "name": "Rain World",
+  "steamAppId": 312520,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Videocult\\Rain World"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Rain_World",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/library_600x900.jpg"
+ },
+ {
+  "id": "1174180",
+  "name": "Red Dead Redemption 2",
+  "steamAppId": 1174180,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Rockstar Games\\Red Dead Redemption 2\\Profiles\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Red_Dead_Redemption_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_600x900.jpg"
+ },
+ {
+  "id": "883710",
+  "name": "Resident Evil 2 (2019)",
+  "steamAppId": 883710,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\883710\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_2_(2019)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/library_600x900.jpg"
+ },
+ {
+  "id": "952060",
+  "name": "Resident Evil 3 (2020)",
+  "steamAppId": 952060,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\952060\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_3_(2020)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/library_600x900.jpg"
+ },
+ {
+  "id": "2050650",
+  "name": "Resident Evil 4 (2023)",
+  "steamAppId": 2050650,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\2050650\\remote\\win64_save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_4_(2023)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_600x900.jpg"
+ },
+ {
+  "id": "254700",
+  "name": "Resident Evil 4 Ultimate HD Edition",
+  "steamAppId": 254700,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\254700\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_4_Ultimate_HD_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/254700/library_600x900.jpg"
+ },
+ {
+  "id": "21690",
+  "name": "Resident Evil 5",
+  "steamAppId": 21690,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\21690\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\capcom\\RESIDENT EVIL 5"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_5",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/21690/library_600x900.jpg"
+ },
+ {
+  "id": "221040",
+  "name": "Resident Evil 6",
+  "steamAppId": 221040,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\221040\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_6",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/library_600x900.jpg"
+ },
+ {
+  "id": "418370",
+  "name": "Resident Evil 7: Biohazard",
+  "steamAppId": 418370,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\418370\\remote\\win64_save"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\F024294D.RESIDENTEVIL7biohazard_8fty0by30jkny\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Resident_Evil_7%3A_Biohazard",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/library_600x900.jpg"
+ },
+ {
+  "id": "2290180",
+  "name": "Riders Republic",
+  "steamAppId": 2290180,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\5780"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Riders_Republic",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/library_600x900.jpg"
+ },
+ {
+  "id": "294100",
+  "name": "RimWorld",
+  "steamAppId": 294100,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Ludeon Studios\\RimWorld"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Ludeon Studios\\RimWorld by Ludeon Studios\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/RimWorld",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/library_600x900.jpg"
+ },
+ {
+  "id": "391220",
+  "name": "Rise of the Tomb Raider",
+  "steamAppId": 391220,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\391220\\remote"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\Rise of the Tomb Raider\\<ID do perfil>"
+   },
+   {
+    "store": "GOG",
+    "path": "%LOCALAPPDATA%\\GOG.com\\Galaxy\\Applications\\58668848197088414\\Storage\\Shared\\Files"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\39C668CD.RiseoftheTombRaider_r7bfsmp40f67j\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Rise_of_the_Tomb_Raider",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/391220/library_600x900.jpg"
+ },
+ {
+  "id": "632360",
+  "name": "Risk of Rain 2",
+  "steamAppId": 632360,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\632360\\remote\\UserProfiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Risk_of_Rain_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/library_600x900.jpg"
+ },
+ {
+  "id": "252950",
+  "name": "Rocket League",
+  "steamAppId": 252950,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\252950"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Rocket League\\TAGame\\SaveData"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Rocket League\\TAGame\\SaveDataEpic"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Rocket_League",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/library_600x900.jpg"
+ },
+ {
+  "id": "1643320",
+  "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+  "steamAppId": 1643320,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\GSCGameWorld.S.T.A.L.K.E.R.2HeartofChernobyl_6fr1t1rwfarwt\\SystemAppData\\xgs\\<ID do perfil>\\SaveGames"
+   },
+   {
+    "store": "GOG",
+    "path": "%LOCALAPPDATA%\\Stalker2\\Saved\\GOG"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Stalker2\\Saved\\STEAM"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Stalker2\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/S.T.A.L.K.E.R._2%3A_Heart_of_Chornobyl",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/library_600x900.jpg"
+ },
+ {
+  "id": "526870",
+  "name": "Satisfactory",
+  "steamAppId": 526870,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\FactoryGame\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Satisfactory",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/526870/library_600x900.jpg"
+ },
+ {
+  "id": "3164500",
+  "name": "Schedule I",
+  "steamAppId": 3164500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\TVGS\\Schedule I\\Saves\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Schedule_I",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3164500/library_600x900.jpg"
+ },
+ {
+  "id": "700330",
+  "name": "SCP: Secret Laboratory",
+  "steamAppId": 700330,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Hubert Moszka\\SCP_ Secret Laboratory"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\700330"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/SCP%3A_Secret_Laboratory",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/700330/library_600x900.jpg"
+ },
+ {
+  "id": "387990",
+  "name": "Scrap Mechanic",
+  "steamAppId": 387990,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Axolot Games\\Scrap Mechanic"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Scrap_Mechanic",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/387990/library_600x900.jpg"
+ },
+ {
+  "id": "513710",
+  "name": "Scum",
+  "steamAppId": 513710,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\SCUM\\Saved\\SaveFiles"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Scum",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/513710/library_600x900.jpg"
+ },
+ {
+  "id": "814380",
+  "name": "Sekiro: Shadows Die Twice",
+  "steamAppId": 814380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Sekiro\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sekiro%3A_Shadows_Die_Twice",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_600x900.jpg"
+ },
+ {
+  "id": "750920",
+  "name": "Shadow of the Tomb Raider",
+  "steamAppId": 750920,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Shadow of the Tomb Raider\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\39C668CD.TombRaider11BaseGame_r7bfsmp40f67j\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Shadow_of_the_Tomb_Raider",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/library_600x900.jpg"
+ },
+ {
+  "id": "8930",
+  "name": "Sid Meier's Civilization V",
+  "steamAppId": 8930,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\8930"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Sid Meier's Civilization 5\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_V",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/8930/library_600x900.jpg"
+ },
+ {
+  "id": "289070",
+  "name": "Sid Meier's Civilization VI",
+  "steamAppId": 289070,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Sid Meier's Civilization VI (Epic)\\Saves"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Sid Meier's Civilization VI\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_VI",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/library_600x900.jpg"
+ },
+ {
+  "id": "2138710",
+  "name": "Sifu",
+  "steamAppId": 2138710,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Sifu\\Saved\\SaveGames\\<ID do perfil>"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Sifu\\Saved\\SaveGames"
+   },
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Sifu\\Saved\\SaveGames\\development\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sifu",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/library_600x900.jpg"
+ },
+ {
+  "id": "646570",
+  "name": "Slay the Spire",
+  "steamAppId": 646570,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\betaPreferences"
+   },
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\preferences"
+   },
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\runs"
+   },
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Slay_the_Spire",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/library_600x900.jpg"
+ },
+ {
+  "id": "2868840",
+  "name": "Slay the Spire 2",
+  "steamAppId": 2868840,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\SlayTheSpire2\\steam\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Slay_the_Spire_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/library_600x900.jpg"
+ },
+ {
+  "id": "307690",
+  "name": "Sleeping Dogs: Definitive Edition",
+  "steamAppId": 307690,
+  "savePaths": [
+   {
+    "store": "GOG",
+    "path": "Pasta do jogo\\Save"
+   },
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\data"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sleeping_Dogs%3A_Definitive_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/307690/library_600x900.jpg"
+ },
+ {
+  "id": "433340",
+  "name": "Slime Rancher",
+  "steamAppId": 433340,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Monomi Park\\Slime Rancher"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\MonomiPark.SlimeRancher_9ahw7gx0g86p2\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Slime_Rancher",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/library_600x900.jpg"
+ },
+ {
+  "id": "1657630",
+  "name": "Slime Rancher 2",
+  "steamAppId": 1657630,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\MonomiPark\\SlimeRancher2"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\MonomiPark\\SlimeRancher2\\Steam\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Slime_Rancher_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1657630/library_600x900.jpg"
+ },
+ {
+  "id": "312660",
+  "name": "Sniper Elite 4",
+  "steamAppId": 312660,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\SniperElite4\\PC_ProfileSaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sniper_Elite_4",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/312660/library_600x900.jpg"
+ },
+ {
+  "id": "1029690",
+  "name": "Sniper Elite 5",
+  "steamAppId": 1029690,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Rebellion.52602B995C00E_2vbwqmt31j4mr\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Sniper Elite 5\\PC_ProfileSaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sniper_Elite_5",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1029690/library_600x900.jpg"
+ },
+ {
+  "id": "1465360",
+  "name": "SnowRunner",
+  "steamAppId": 1465360,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\SnowRunner\\base\\storage"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\FocusHomeInteractiveSA.SnowRunnerWindows10_4hny5m903y3g0\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/SnowRunner",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1465360/library_600x900.jpg"
+ },
+ {
+  "id": "213670",
+  "name": "South Park: The Stick of Truth",
+  "steamAppId": 213670,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\South Park - The Stick of Truth\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/South_Park%3A_The_Stick_of_Truth",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/library_600x900.jpg"
+ },
+ {
+  "id": "244850",
+  "name": "Space Engineers",
+  "steamAppId": 244850,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\SpaceEngineers\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Space_Engineers",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/244850/library_600x900.jpg"
+ },
+ {
+  "id": "972660",
+  "name": "Spiritfarer",
+  "steamAppId": 972660,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Thunder Lotus Games\\Spiritfarer"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\44905ThunderLotusGames.40196900AE792_hbhkcnqstm4gr\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Spiritfarer",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/972660/library_600x900.jpg"
+ },
+ {
+  "id": "2001120",
+  "name": "Split Fiction",
+  "steamAppId": 2001120,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\SplitFiction"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Split_Fiction",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2001120/library_600x900.jpg"
+ },
+ {
+  "id": "17390",
+  "name": "Spore",
+  "steamAppId": 17390,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Spore\\Games"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Spore Creations"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Spore",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/17390/library_600x900.jpg"
+ },
+ {
+  "id": "393380",
+  "name": "Squad",
+  "steamAppId": 393380,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\SquadGame\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Squad",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/393380/library_600x900.jpg"
+ },
+ {
+  "id": "1774580",
+  "name": "Star Wars Jedi: Survivor",
+  "steamAppId": 1774580,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\Respawn\\JediSurvivor"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Star_Wars_Jedi%3A_Survivor",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/library_600x900.jpg"
+ },
+ {
+  "id": "32470",
+  "name": "Star Wars: Empire at War",
+  "steamAppId": 32470,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\Petroglyph\\Empire At War\\Save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Empire_at_War",
+  "cover": null
+ },
+ {
+  "id": "413150",
+  "name": "Stardew Valley",
+  "steamAppId": 413150,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\StardewValley\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Stardew_Valley",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/library_600x900.jpg"
+ },
+ {
+  "id": "1716740",
+  "name": "Starfield",
+  "steamAppId": 1716740,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1716740\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Starfield\\Saves"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\BethesdaSoftworks.ProjectGold_3275kfvn8vcwc\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Starfield",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/library_600x900.jpg"
+ },
+ {
+  "id": "495420",
+  "name": "State of Decay 2",
+  "steamAppId": 495420,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Microsoft.Dayton_8wekyb3d8bbwe\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\StateOfDecay2\\Saved"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/State_of_Decay_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/library_600x900.jpg"
+ },
+ {
+  "id": "281990",
+  "name": "Stellaris",
+  "steamAppId": 281990,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Stellaris"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Stellaris GamePass\\save games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Stellaris",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/281990/library_600x900.jpg"
+ },
+ {
+  "id": "625960",
+  "name": "Stoneshard",
+  "steamAppId": 625960,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\Local\\StoneShard\\characters_v1"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Stoneshard",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/625960/library_600x900.jpg"
+ },
+ {
+  "id": "573090",
+  "name": "Stormworks: Build and Rescue",
+  "steamAppId": 573090,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Stormworks\\data"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Stormworks\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Stormworks%3A_Build_and_Rescue",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/573090/library_600x900.jpg"
+ },
+ {
+  "id": "1364780",
+  "name": "Street Fighter 6",
+  "steamAppId": 1364780,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1364780\\remote\\win64_save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Street_Fighter_6",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/library_600x900.jpg"
+ },
+ {
+  "id": "264710",
+  "name": "Subnautica",
+  "steamAppId": 264710,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\SNAppData\\SavedGames"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Unknown Worlds\\Subnautica\\Subnautica\\SavedGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Subnautica",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/library_600x900.jpg"
+ },
+ {
+  "id": "3117820",
+  "name": "Sultan's Game",
+  "steamAppId": 3117820,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\DoubleCross\\SultansGame\\SAVEDATA\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Sultan's_Game",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3117820/library_600x900.jpg"
+ },
+ {
+  "id": "2670630",
+  "name": "Supermarket Simulator",
+  "steamAppId": 2670630,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Nokta Games\\Supermarket Simulator"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Supermarket_Simulator",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2670630/library_600x900.jpg"
+ },
+ {
+  "id": "2709570",
+  "name": "Supermarket Together",
+  "steamAppId": 2709570,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\DDTNL\\Supermarket Together"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Supermarket_Together",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2709570/library_600x900.jpg"
+ },
+ {
+  "id": "286160",
+  "name": "Tabletop Simulator",
+  "steamAppId": 286160,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\Tabletop Simulator_Data\\Mods"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Tabletop Simulator\\Mods"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Tabletop Simulator\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tabletop_Simulator",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/286160/library_600x900.jpg"
+ },
+ {
+  "id": "1466060",
+  "name": "Tainted Grail: The Fall of Avalon",
+  "steamAppId": 1466060,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Questline\\Fall of Avalon"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tainted_Grail%3A_The_Fall_of_Avalon",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1466060/library_600x900.jpg"
+ },
+ {
+  "id": "3678970",
+  "name": "TBH: Task Bar Hero",
+  "steamAppId": 3678970,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\TesseractStudio\\TaskbarHero"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/TBH%3A_Task_Bar_Hero",
+  "cover": null
+ },
+ {
+  "id": "3070070",
+  "name": "TCG Card Shop Simulator",
+  "steamAppId": 3070070,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\OPNeonGames\\Card Shop Simulator"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\OPNEONGAMES.TCGCardShopSimulator_19j6by82ahhzr\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/TCG_Card_Shop_Simulator",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3070070/library_600x900.jpg"
+ },
+ {
+  "id": "1778820",
+  "name": "Tekken 8",
+  "steamAppId": 1778820,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\TEKKEN 8\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tekken_8",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/library_600x900.jpg"
+ },
+ {
+  "id": "105600",
+  "name": "Terraria",
+  "steamAppId": 105600,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\105600\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Terraria"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Terraria",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/library_600x900.jpg"
+ },
+ {
+  "id": "250900",
+  "name": "The Binding of Isaac: Rebirth",
+  "steamAppId": 250900,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\250900\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Afterbirth"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Afterbirth+"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Rebirth"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Repentance"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Repentance (Galaxy)"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Binding of Isaac Repentance+"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Binding_of_Isaac%3A_Rebirth",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/250900/library_600x900.jpg"
+ },
+ {
+  "id": "2623190",
+  "name": "The Elder Scrolls IV: Oblivion Remastered",
+  "steamAppId": 2623190,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Oblivion Remastered\\Saved\\SaveGames"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\BethesdaSoftworks.ProjectAltar_3275kfvn8vcwc\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Elder_Scrolls_IV%3A_Oblivion_Remastered",
+  "cover": null
+ },
+ {
+  "id": "72850",
+  "name": "The Elder Scrolls V: Skyrim",
+  "steamAppId": 72850,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Skyrim\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Elder_Scrolls_V%3A_Skyrim",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/72850/library_600x900.jpg"
+ },
+ {
+  "id": "489830",
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "steamAppId": 489830,
+  "savePaths": [
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Skyrim Special Edition GOG\\Saves"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Skyrim Special Edition\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Elder_Scrolls_V%3A_Skyrim_Special_Edition",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/library_600x900.jpg"
+ },
+ {
+  "id": "641990",
+  "name": "The Escapists 2",
+  "steamAppId": 641990,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Team 17 Digital ltd_\\The Escapists 2\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Escapists_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/641990/library_600x900.jpg"
+ },
+ {
+  "id": "2680010",
+  "name": "The First Berserker: Khazan",
+  "steamAppId": 2680010,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\The First Berserker Khazan\\Saved\\SaveGames\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_First_Berserker%3A_Khazan",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2680010/library_600x900.jpg"
+ },
+ {
+  "id": "242760",
+  "name": "The Forest",
+  "steamAppId": 242760,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\SKS\\TheForest"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\242760\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Forest",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/library_600x900.jpg"
+ },
+ {
+  "id": "518790",
+  "name": "The Hunter: Call of the Wild",
+  "steamAppId": 518790,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\Avalanche Studios\\COTW\\Saves\\<ID do perfil>"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Avalanche Studios\\COTW\\Saves\\<ID do perfil>"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\Avalanche Studios\\Epic Games Store\\theHunter Call of the Wild\\Saves\\<ID do perfil>"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Avalanche Studios\\theHunter Call of the Wild\\Saves\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Hunter%3A_Call_of_the_Wild",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/518790/library_600x900.jpg"
+ },
+ {
+  "id": "1888930",
+  "name": "The Last of Us Part I",
+  "steamAppId": 1888930,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\The Last of Us Part I\\users\\<ID do perfil>\\savedata"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Last_of_Us_Part_I",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/library_600x900.jpg"
+ },
+ {
+  "id": "2531310",
+  "name": "The Last of Us Part II Remastered",
+  "steamAppId": 2531310,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\The Last of Us Part II\\<ID do perfil>\\savedata"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Last_of_Us_Part_II_Remastered",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/library_600x900.jpg"
+ },
+ {
+  "id": "305620",
+  "name": "The Long Dark",
+  "steamAppId": 305620,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Hinterland\\TheLongDark"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Long_Dark",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/305620/library_600x900.jpg"
+ },
+ {
+  "id": "1222670",
+  "name": "The Sims 4",
+  "steamAppId": 1222670,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Electronic Arts\\The Sims 4\\saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Sims_4",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/library_600x900.jpg"
+ },
+ {
+  "id": "1449690",
+  "name": "The Walking Dead: The Telltale Definitive Series",
+  "steamAppId": 1449690,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\Telltale Games\\TWDTTDS"
+   },
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Telltale Games\\The Walking Dead Definitive"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Telltale Games\\The Walking Dead The Telltale Definitive Series"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Walking_Dead%3A_The_Telltale_Definitive_Series",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1449690/library_600x900.jpg"
+ },
+ {
+  "id": "292030",
+  "name": "The Witcher 3: Wild Hunt",
+  "steamAppId": 292030,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\The Witcher 3\\gamesaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/The_Witcher_3%3A_Wild_Hunt",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_600x900.jpg"
+ },
+ {
+  "id": "644930",
+  "name": "They Are Billions",
+  "steamAppId": 644930,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\They Are Billions\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/They_Are_Billions",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/644930/library_600x900.jpg"
+ },
+ {
+  "id": "282070",
+  "name": "This War of Mine",
+  "steamAppId": 282070,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\282070\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\11bitstudios\\This War Of Mine"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/This_War_of_Mine",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/library_600x900.jpg"
+ },
+ {
+  "id": "2239150",
+  "name": "Thronefall",
+  "steamAppId": 2239150,
+  "savePaths": [
+   {
+    "store": "Microsoft Store",
+    "path": "%USERPROFILE%\\AppData\\Local\\Packages\\Mythwright.Thronefall_9b483820r0x2c\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Grizzly Games\\Thronefall"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Thronefall",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239150/library_600x900.jpg"
+ },
+ {
+  "id": "1062090",
+  "name": "Timberborn",
+  "steamAppId": 1062090,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Timberborn\\ExperimentalSaves"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Timberborn\\Saves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Timberborn",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1062090/library_600x900.jpg"
+ },
+ {
+  "id": "2231380",
+  "name": "Tom Clancy's Ghost Recon Breakpoint",
+  "steamAppId": 2231380,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\62412"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Breakpoint",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2231380/library_600x900.jpg"
+ },
+ {
+  "id": "460930",
+  "name": "Tom Clancy's Ghost Recon Wildlands",
+  "steamAppId": 460930,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\3559"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Wildlands",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/library_600x900.jpg"
+ },
+ {
+  "id": "359550",
+  "name": "Tom Clancy's Rainbow Six Siege",
+  "steamAppId": 359550,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\1843"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Rainbow_Six_Siege",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/library_600x900.jpg"
+ },
+ {
+  "id": "203160",
+  "name": "Tomb Raider (2013)",
+  "steamAppId": 203160,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\203160\\remote"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\My Games\\Tomb Raider"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%USERPROFILE%\\Documents\\Tomb Raider\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Tomb_Raider_(2013)",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/203160/library_600x900.jpg"
+ },
+ {
+  "id": "325610",
+  "name": "Total War: Attila",
+  "steamAppId": 325610,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Attila\\save_games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Total_War%3A_Attila",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/library_600x900.jpg"
+ },
+ {
+  "id": "214950",
+  "name": "Total War: Rome II",
+  "steamAppId": 214950,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Rome2\\save_games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Total_War%3A_Rome_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/214950/library_600x900.jpg"
+ },
+ {
+  "id": "779340",
+  "name": "Total War: Three Kingdoms",
+  "steamAppId": 779340,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\The Creative Assembly\\ThreeKingdoms\\EOS\\save_games"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\ThreeKingdoms\\save_games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Total_War%3A_Three_Kingdoms",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/library_600x900.jpg"
+ },
+ {
+  "id": "594570",
+  "name": "Total War: Warhammer II",
+  "steamAppId": 594570,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer2\\EOS\\save_games"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer2\\EOS\\save_games_multiplayer"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer2\\save_games"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer2\\save_games_multiplayer"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Total_War%3A_Warhammer_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/594570/library_600x900.jpg"
+ },
+ {
+  "id": "1142710",
+  "name": "Total War: Warhammer III",
+  "steamAppId": 1142710,
+  "savePaths": [
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer3\\EOS\\save_games"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer3\\EOS\\save_games_multiplayer"
+   },
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer3\\save_games"
+   },
+   {
+    "store": "Steam",
+    "path": "%APPDATA%\\The Creative Assembly\\Warhammer3\\save_games_multiplayer"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Total_War%3A_Warhammer_III",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1142710/library_600x900.jpg"
+ },
+ {
+  "id": "508440",
+  "name": "Totally Accurate Battle Simulator",
+  "steamAppId": 508440,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Landfall Games\\Totally Accurate Battle Simulator\\Saved"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\LandfallGames.TotallyAccurateBattleSimulator_r2vq7k2y0v9ct\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Totally_Accurate_Battle_Simulator",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/508440/library_600x900.jpg"
+ },
+ {
+  "id": "585420",
+  "name": "Trailmakers",
+  "steamAppId": 585420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\TrailMakers"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\Flashbulb.Trailmakers_8a41h19xsg1bm\\SystemAppData\\wgs"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Trailmakers",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/library_600x900.jpg"
+ },
+ {
+  "id": "1066780",
+  "name": "Transport Fever 2",
+  "steamAppId": 1066780,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1066780\\local"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Transport Fever 2"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Transport_Fever_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1066780/library_600x900.jpg"
+ },
+ {
+  "id": "535930",
+  "name": "Two Point Hospital",
+  "steamAppId": 535930,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Two Point Studios\\Two Point Hospital\\Cloud"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\7904SEGAEuropeLtd.TwoPointHospital-GamePass_zs7esxpzd8d5c\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Two_Point_Hospital",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/535930/library_600x900.jpg"
+ },
+ {
+  "id": "386940",
+  "name": "Ultimate Chicken Horse",
+  "steamAppId": 386940,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Clever Endeavour Games\\Ultimate Chicken Horse"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Ultimate_Chicken_Horse",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/386940/library_600x900.jpg"
+ },
+ {
+  "id": "1659420",
+  "name": "Uncharted: Legacy of Thieves Collection",
+  "steamAppId": 1659420,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\Uncharted Legacy of Thieves Collection\\users\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Uncharted%3A_Legacy_of_Thieves_Collection",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659420/library_600x900.jpg"
+ },
+ {
+  "id": "391540",
+  "name": "Undertale",
+  "steamAppId": 391540,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\391540\\remote"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\UNDERTALE"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Undertale",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/library_600x900.jpg"
+ },
+ {
+  "id": "304930",
+  "name": "Unturned",
+  "steamAppId": 304930,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Smartly Dressed Games\\Unturned"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\304930"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Unturned",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/304930/library_600x900.jpg"
+ },
+ {
+  "id": "1604030",
+  "name": "V Rising",
+  "steamAppId": 1604030,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Stunlock Studios\\VRising\\CloudSaves"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/V_Rising",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/library_600x900.jpg"
+ },
+ {
+  "id": "892970",
+  "name": "Valheim",
+  "steamAppId": 892970,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\IronGate\\Valheim"
+   },
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\892970"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Valheim",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/library_600x900.jpg"
+ },
+ {
+  "id": "1794680",
+  "name": "Vampire Survivors",
+  "steamAppId": 1794680,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\1794680\\remote\\SaveData"
+   },
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Vampire_Survivors\\saves"
+   },
+   {
+    "store": "Epic Games Store",
+    "path": "%APPDATA%\\Vampire_Survivors_EGS\\<ID do perfil>"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\poncle.VampireSurvivors_9pv5cyp4vwdsr\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Vampire_Survivors",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/library_600x900.jpg"
+ },
+ {
+  "id": "529340",
+  "name": "Victoria 3",
+  "steamAppId": 529340,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\Paradox Interactive\\Victoria 3\\save games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Victoria_3",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/529340/library_600x900.jpg"
+ },
+ {
+  "id": "438100",
+  "name": "VRChat",
+  "steamAppId": 438100,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\VRChat\\VRChat\\LocalAvatarData"
+   },
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\VRChat\\VRChat\\LocalPlayerModerations"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/VRChat",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/438100/library_600x900.jpg"
+ },
+ {
+  "id": "1876890",
+  "name": "Wandering Sword",
+  "steamAppId": 1876890,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Wandering_Sword\\Saved\\<ID do perfil>\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Wandering_Sword",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1876890/library_600x900.jpg"
+ },
+ {
+  "id": "1867240",
+  "name": "Wardogs",
+  "steamAppId": 1867240,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Wardogs\\Saved\\SaveGames"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Wardogs",
+  "cover": null
+ },
+ {
+  "id": "2186680",
+  "name": "Warhammer 40,000: Rogue Trader",
+  "steamAppId": 2186680,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\Owlcat Games\\Warhammer 40000 Rogue Trader\\Saved Games"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Rogue_Trader",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2186680/library_600x900.jpg"
+ },
+ {
+  "id": "2183900",
+  "name": "Warhammer 40,000: Space Marine II",
+  "steamAppId": 2183900,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%LOCALAPPDATA%\\Saber\\Space Marine 2\\storage\\steam\\user\\<ID do perfil>\\Main\\config"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Space_Marine_II",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183900/library_600x900.jpg"
+ },
+ {
+  "id": "552500",
+  "name": "Warhammer: Vermintide 2",
+  "steamAppId": 552500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%APPDATA%\\Fatshark\\Vermintide 2"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Warhammer%3A_Vermintide_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/library_600x900.jpg"
+ },
+ {
+  "id": "1611600",
+  "name": "WARNO",
+  "steamAppId": 1611600,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Saved Games\\EugenSystems\\WARNO"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/WARNO",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1611600/library_600x900.jpg"
+ },
+ {
+  "id": "1527950",
+  "name": "Wartales",
+  "steamAppId": 1527950,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\save"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\7286ShiroGamesSAS.Wartales_esjzrp5ntrs52\\SystemAppData\\wgs\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Wartales",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1527950/library_600x900.jpg"
+ },
+ {
+  "id": "243470",
+  "name": "Watch Dogs",
+  "steamAppId": 243470,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\541"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Watch_Dogs",
+  "cover": null
+ },
+ {
+  "id": "447040",
+  "name": "Watch Dogs 2",
+  "steamAppId": 447040,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\savegames\\<ID do perfil>\\3619"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Watch_Dogs_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/447040/library_600x900.jpg"
+ },
+ {
+  "id": "1211020",
+  "name": "Wobbly Life",
+  "steamAppId": 1211020,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\AppData\\LocalLow\\RubberBandGames\\Wobbly Life\\Save\\<ID do perfil>"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Wobbly_Life",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1211020/library_600x900.jpg"
+ },
+ {
+  "id": "784150",
+  "name": "Workers & Resources: Soviet Republic",
+  "steamAppId": 784150,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "Pasta do jogo\\media_soviet\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/Workers_%26_Resources%3A_Soviet_Republic",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/library_600x900.jpg"
+ },
+ {
+  "id": "444200",
+  "name": "World of Tanks Blitz",
+  "steamAppId": 444200,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\444200"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\7458BE2C.WorldofTanksBlitz_x4tje2y229k00\\LocalState\\DAVAProject"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\wotblitz\\DAVAProject"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/World_of_Tanks_Blitz",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/444200/library_600x900.jpg"
+ },
+ {
+  "id": "552990",
+  "name": "World of Warships",
+  "steamAppId": 552990,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta do jogo"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/World_of_Warships",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/552990/library_600x900.jpg"
+ },
+ {
+  "id": "699130",
+  "name": "World War Z",
+  "steamAppId": 699130,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\699130\\remote"
+   },
+   {
+    "store": "Microsoft Store",
+    "path": "%LOCALAPPDATA%\\Packages\\MadDogGamesLLC.WWZBaseGamePC_6wkgvezv94m76\\SystemAppData\\wgs"
+   },
+   {
+    "store": "Windows",
+    "path": "%LOCALAPPDATA%\\Saber\\WWZ\\client\\storage"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/World_War_Z",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/699130/library_600x900.jpg"
+ },
+ {
+  "id": "621830",
+  "name": "WRC 7: FIA World Rally Championship",
+  "steamAppId": 621830,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "Pasta da Steam\\userdata\\<ID do perfil>\\621830\\remote"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/WRC_7%3A_FIA_World_Rally_Championship",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/library_600x900.jpg"
+ },
+ {
+  "id": "392160",
+  "name": "X4: Foundations",
+  "steamAppId": 392160,
+  "savePaths": [
+   {
+    "store": "Steam",
+    "path": "%USERPROFILE%\\Documents\\Egosoft\\X4\\<ID do perfil>\\save"
+   },
+   {
+    "store": "GOG",
+    "path": "%USERPROFILE%\\Documents\\Egosoft\\X4\\save"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/X4%3A_Foundations",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/392160/library_600x900.jpg"
+ },
+ {
+  "id": "268500",
+  "name": "XCOM 2",
+  "steamAppId": 268500,
+  "savePaths": [
+   {
+    "store": "Windows",
+    "path": "%USERPROFILE%\\Documents\\My Games\\XCOM2\\XComGame\\SaveData"
+   }
+  ],
+  "sourceUrl": "https://www.pcgamingwiki.com/wiki/XCOM_2",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/268500/library_600x900.jpg"
+ }
+]
