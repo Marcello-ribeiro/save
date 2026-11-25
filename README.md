@@ -1,104 +1,105 @@
-<div align="center">
-
-<a href="https://save-pearl-three.vercel.app"><img src="docs/capa.jpg" alt="SaveVault no computador e no celular" width="100%" /></a>
-
 # SaveVault
 
-**Guarde, organize e baixe os saves dos seus jogos em um só lugar.**
+Backups dos saves dos seus jogos de PC, guardados em ZIP e separados por jogo.
 
-<a href="https://save-pearl-three.vercel.app"><img src="https://img.shields.io/badge/ver%20online-save--pearl--three.vercel.app-eceef5?style=for-the-badge&labelColor=151821" alt="Ver online" /></a>
-<img src="https://img.shields.io/badge/JavaScript-151821?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Supabase-151821?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
-<img src="https://img.shields.io/badge/Vercel-151821?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+Você escolhe a pasta de saves, o navegador cria um ZIP e envia para a sua conta. Para restaurar, é só baixar o ZIP e extrair na mesma pasta.
 
-</div>
+## Visual
 
-<br />
+Tema inspirado na interface de um console moderno, em branco e preto, com destaque rosa de pôr do sol (#ff6fb5) e lilás de apoio:
 
-## Sobre
+- ondas finas de luz passando devagar na parte de baixo da tela e uma listra diagonal com um brilho em loop;
+- um controle original em SVG que flutua e inclina com o mouse. Ele é branco no tema escuro e preto no tema claro;
+- capas que crescem e ganham um contorno claro quando estão selecionadas, com navegação pelas setas do teclado.
 
-O SaveVault é um site para quem quer manter os arquivos de save dos jogos organizados. Cada pessoa tem a sua própria conta e a sua biblioteca: cadastra o jogo, envia a capa e o save, e depois baixa, atualiza ou adiciona novas versões quando precisar.
+Os temas são claro, escuro e automático. As cores de destaque são rosa, azul, lilás e branco puro. Os efeitos de fundo podem ser desligados e também desligam sozinhos com `prefers-reduced-motion`.
 
 ## Recursos
 
-- **Conta própria:** cadastro, login e logout com Supabase Auth.
-- **Biblioteca de jogos:** cada jogo aparece com a sua capa, com busca por nome.
-- **Upload completo:** envie o jogo, a capa e o primeiro save de uma vez, com observação.
-- **Página do jogo:** lista todos os saves do jogo, com a observação de cada um.
-- **Baixar, atualizar e adicionar:** baixe um save, substitua por uma versão nova ou mantenha o antigo e adicione outro.
-- **Privacidade:** as capas ficam em um bucket privado e são exibidas por URL assinada. O banco usa RLS para cada pessoa acessar apenas os seus dados.
-- **Visual:** tema escuro, cartas de jogo com inclinação 3D, layout responsivo e respeito à opção "reduzir movimento" do sistema.
+- **Biblioteca:** grade de capas com busca, quantidade de backups e data do último.
+- **Catálogo:** 360 jogos populares de PC, com capa e as pastas de save no Windows separadas por loja (Steam, GOG, Microsoft Store, Epic…), com "Copiar caminho".
+- **Cadastrar jogo:** pelo catálogo, com capa própria ou só com o nome.
+  - Você seleciona a pasta de saves e o navegador gera o ZIP (com JSZip) e envia, mostrando o progresso.
+  - O formulário avisa quando o ZIP passa do limite de 50 MB.
+  - Se algum passo falhar, tudo o que já tinha subido é desfeito.
+- **Página do jogo:** baixar, renomear, editar a observação e mover para a lixeira; novo backup, editar jogo e excluir jogo.
+- **Backups:** espaço usado, abas Ativos e Lixeira, restaurar, apagar de vez e esvaziar os itens com mais de 30 dias.
+- **Sincronização:** exporta a biblioteca inteira num arquivo `.savevault` (ZIP com `manifest.json`, capas e backups).
+  - Na importação, mostra um resumo antes de enviar e pula os duplicados, comparando pelo SHA-256.
+- **Configurações:** seção inicial, aparência e conta. As preferências ficam na sua conta (`profiles.preferences`) e valem em qualquer computador.
+- **Conta:** entrar, criar conta, esqueci a senha e nova senha, com os erros em português.
+  - Sem conta dá para navegar e consultar o catálogo.
 
-## Telas
+## Stack
 
-<img src="docs/biblioteca.jpg" alt="Biblioteca de jogos com as capas" width="100%" />
+- Vite, React e TypeScript, com CSS próprio em variáveis. Sem framework de UI e sem biblioteca de animação.
+- Supabase:
+  - Auth para a conta;
+  - Postgres com RLS, em que cada pessoa só vê as próprias linhas;
+  - Storage com buckets privados.
+- JSZip para gerar o ZIP no navegador.
 
-<table>
-  <tr>
-    <td width="58%"><img src="docs/jogo.jpg" alt="Página de um jogo com a lista de saves" /></td>
-    <td width="42%"><img src="docs/celular.jpg" alt="Versão para celular" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Página do jogo, com todos os saves</sub></td>
-    <td align="center"><sub>No celular</sub></td>
-  </tr>
-</table>
-
-> As telas usam jogos e capas de exemplo.
-
-## Tecnologias
-
-| Área | O que foi usado |
-| --- | --- |
-| Interface | HTML, CSS e JavaScript puro, sem frameworks nem bibliotecas de animação |
-| Autenticação | Supabase Auth |
-| Banco de dados | Supabase (PostgreSQL) com RLS. Tabelas `profiles`, `games` e `saves` |
-| Arquivos | Supabase Storage. Buckets `game-covers` e `save-files`, com URLs assinadas para as capas |
-| Publicação | Vercel |
-
-## Estrutura
-
-```
-save/
-├── index.html        # Biblioteca de jogos (início)
-├── dashboard.html    # Painel: meus jogos e envio de novos jogos
-├── game.html         # Página de um jogo e seus saves
-├── login.html        # Entrar
-├── signup.html       # Criar conta
-├── sobre.html        # Sobre o projeto
-├── css/style.css     # Estilos
-├── js/
-│   ├── app.js        # Lógica: autenticação, Supabase e páginas
-│   └── fx.js         # Efeitos visuais: inclinação 3D e parallax
-├── docs/            # Imagens do README
-└── favicon.svg
-```
-
-## Rodando localmente
-
-O projeto é estático, mas precisa ser aberto por um servidor local para o login funcionar direito.
+## Como rodar
 
 ```bash
-git clone https://github.com/Marcello-ribeiro/save.git
-cd save
-python -m http.server 8000
+npm install
+cp .env.example .env.local   # preencha com a URL e a chave publicável do Supabase
+npm run dev
 ```
 
-Depois acesse http://localhost:8000.
+| Variável | Onde achar |
+| --- | --- |
+| `VITE_SUPABASE_URL` | Supabase > Project Settings > API > Project URL |
+| `VITE_SUPABASE_KEY` | Supabase > Project Settings > API Keys > publishable key |
 
-### Usando o seu próprio Supabase
+A chave publicável pode ficar no navegador; quem protege os dados são as policies de RLS. Nunca use a chave secreta (`service_role`) aqui.
 
-1. Crie um projeto no [Supabase](https://supabase.com).
-2. Crie as tabelas `profiles`, `games` e `saves` e ative o RLS, de modo que cada usuário acesse só as suas linhas.
-3. Crie os buckets privados `game-covers` e `save-files`.
-4. Em `js/app.js`, troque `SUPABASE_URL` e `SUPABASE_KEY` pela URL e pela chave **publicável** do seu projeto.
+Para gerar a versão de produção, rode `npm run build`; o resultado sai em `dist/`. A versão que aparece no canto da tela vem do campo `version` do `package.json`.
 
-> A chave publicável pode ficar no front-end, pois a segurança vem do RLS. Nunca coloque uma chave de serviço (`service_role`) no código.
+## Catálogo
+
+```bash
+npm run catalog
+```
+
+O script `scripts/build-catalog.mjs` gera `src/data/catalog.json` em quatro passos:
+
+1. Monta a lista com os jogos mais jogados da Steam e completa com as listas da SteamSpy.
+2. Lê a seção "Save game data location" de cada jogo na API da PCGamingWiki.
+   - Quando a API recusa acesso automático (ela fica atrás de uma checagem da Cloudflare), o script usa o [manifesto do Ludusavi](https://github.com/mtkennerly/ludusavi-manifest), que é gerado a partir das mesmas páginas.
+3. Troca as variáveis da wiki por `%APPDATA%`, `%LOCALAPPDATA%`, `%USERPROFILE%\Documents`, "Pasta da Steam", "Pasta do jogo" e `<ID do perfil>`.
+4. Guarda a URL da capa vertical da CDN da Steam. Nenhuma imagem vai para o repositório. Se uma capa não carregar, o site mostra o nome do jogo sobre um degradê.
+
+## Banco (Supabase)
+
+Rode no SQL Editor, em ordem, as migrações de `supabase/migrations/` que ainda não rodou. Todas podem rodar mais de uma vez e nenhuma apaga tabela.
+
+| Arquivo | O que faz |
+| --- | --- |
+| `001` a `003` | Migrações da versão anterior. Rode só se ainda não rodou. |
+| `004_games_v3.sql` | `games`: `catalog_id` vira texto e entram `cover_source` e `updated_at`. |
+| `005_backups.sql` | Cria a tabela `backups`, com lixeira por `deleted_at`, e as policies dela. |
+| `006_profiles_preferences.sql` | `profiles.preferences` (jsonb) e as policies de `profiles`. |
+| `007_saves_to_backups.sql` | Copia os saves da tabela antiga `saves` para `backups`. A tabela `saves` continua existindo. |
+| `008_storage_policies.sql` | Buckets privados `game-covers` e `save-files`, com acesso só à pasta `user_id/…`, e as policies de `games`. |
+
+## Deploy na Vercel
+
+Use estas configurações:
+
+- framework **Vite**;
+- build `npm run build`;
+- saída `dist`;
+- as variáveis `VITE_SUPABASE_URL` e `VITE_SUPABASE_KEY` em Settings > Environment Variables.
+
+O `vercel.json` manda todas as rotas para o `index.html`.
+
+## Créditos
+
+- Caminhos de saves: [PCGamingWiki](https://www.pcgamingwiki.com), sob a licença [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). Eles vêm pelo manifesto do [Ludusavi](https://github.com/mtkennerly/ludusavi-manifest).
+- Capas: arte dos próprios jogos, servida pela CDN da Steam.
+- O visual é original e não usa logos, nomes ou símbolos de nenhuma fabricante de console.
 
 ## Licença
 
-Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE).
-
-<br />
-
-<p align="center"><sub>Feito por <a href="https://github.com/Marcello-ribeiro">Marcello Ribeiro</a></sub></p>
+[MIT](LICENSE)

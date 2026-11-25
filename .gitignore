@@ -6,3 +6,4 @@ dist/
 # Imagens de referência locais
 controle/
 referencias/
+*.tsbuildinfo
