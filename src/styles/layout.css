@@ -318,26 +318,39 @@
   position: absolute;
   left: -25%;
   right: -25%;
-  top: 34%;
-  height: clamp(120px, 18vh, 200px);
+  top: 40%;
+  height: clamp(10px, 1.6vh, 16px);
   overflow: hidden;
   opacity: var(--stripe-opacity);
   transform: rotate(-11deg);
   background: linear-gradient(
     90deg,
-    transparent 4%,
-    color-mix(in srgb, var(--accent) 22%, transparent) 30%,
-    color-mix(in srgb, var(--accent-2) 20%, transparent) 70%,
-    transparent 96%
+    transparent 2%,
+    color-mix(in srgb, var(--accent) 55%, transparent) 25%,
+    color-mix(in srgb, var(--accent-2) 50%, transparent) 75%,
+    transparent 98%
   );
-  mask-image: linear-gradient(180deg, transparent, #000 30%, #000 70%, transparent);
+  /* bordas quase retas: só 1px de suavização em cima e embaixo */
+  mask-image: linear-gradient(180deg, transparent, #000 1px, #000 calc(100% - 1px), transparent);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+/* fio de luz fino no meio da listra */
+.bg-stripe::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  translate: 0 -50%;
+  background: linear-gradient(90deg, transparent 4%, rgb(255 255 255 / 0.55) 30%, rgb(255 255 255 / 0.55) 70%, transparent 96%);
 }
 .bg-stripe::after {
   content: "";
   position: absolute;
   inset: 0 auto 0 0;
-  width: 22%;
-  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.28), transparent);
+  width: 18%;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.6), transparent);
   animation: stripe-shine 10s linear infinite;
 }
 @keyframes stripe-shine {

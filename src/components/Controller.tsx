@@ -36,6 +36,15 @@ export function Controller({ mini = false, className, style }: { mini?: boolean;
 const MODEL_URL = "/controle/ps5_controller.glb";
 const DARK_BODY = [0.022, 0.023, 0.028, 1] as const;
 const LIGHT_BAR = "Material.008";
+
+// Peças do modelo (nomes dos materiais no arquivo .glb)
+const BUTTON_PARTS = ["Material.002", "Material.009"]; // botões de ação e direcional
+const LOGO_PARTS = ["Material.006", "Material.005"]; // logo do centro
+// Botões contrastam com o corpo: escuros no controle branco, claros no preto
+const BUTTONS_ON_WHITE = [0.035, 0.036, 0.045, 1] as const;
+const BUTTONS_ON_BLACK = [0.5, 0.51, 0.55, 1] as const;
+const LOGO_COLOR = [0.8, 0.8, 0.84, 1] as const;
+const LOGO_GLOW = [0.25, 0.25, 0.27] as const;
 const REST_ORBIT = { theta: -35, phi: 68 }; // pose de lado
 
 const REST = { x: 14, y: -32, z: -7 };
@@ -96,6 +105,15 @@ function ModelController({ onFail }: { onFail: () => void }) {
       if (mat.name === LIGHT_BAR) {
         pbr.setBaseColorFactor([r, g, b, 1]);
         mat.setEmissiveFactor([r, g, b]);
+        continue;
+      }
+      if (BUTTON_PARTS.includes(mat.name)) {
+        pbr.setBaseColorFactor(resolvedTheme === "light" ? BUTTONS_ON_BLACK : BUTTONS_ON_WHITE);
+        continue;
+      }
+      if (LOGO_PARTS.includes(mat.name)) {
+        pbr.setBaseColorFactor(LOGO_COLOR);
+        mat.setEmissiveFactor(LOGO_GLOW);
         continue;
       }
       const isWhitePart = !pbr.baseColorTexture?.texture && Math.max(base[0], base[1], base[2]) > 0.3;
