@@ -1,0 +1,184 @@
+/* Tokens do SaveVault. Toda cor, espaço, raio e tamanho sai daqui. */
+
+:root {
+  --font-display: "Segoe UI Variable Display", "SF Pro Display", system-ui, -apple-system, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.25rem;
+  --fs-hero: clamp(2.25rem, 4.6vw, 3.5rem);
+  --lh-tight: 1.1;
+  --lh-body: 1.5;
+  --fw-regular: 400;
+  --fw-medium: 560;
+  --fw-bold: 700;
+  --fw-heavy: 800;
+
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  --line: 1px;
+  --focus-w: 2px;
+
+  --topbar-h: 64px;
+  --rail-w: 68px;
+  --rail-w-open: 212px;
+  --bottomnav-h: 64px;
+  --content-max: 1180px;
+  --form-max: 720px;
+  --control-h: 40px;
+  --control-h-sm: 32px;
+  --icon: 20px;
+  --icon-sm: 16px;
+  --avatar: 34px;
+
+  --cover-w: 132px;
+  --cover-ratio: 2 / 3;
+  --cover-lift: 1.06;
+
+  --dur-fast: 140ms;
+  --dur: 220ms;
+  --dur-slow: 420ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --z-bg: 0;
+  --z-content: 1;
+  --z-nav: 20;
+  --z-menu: 40;
+  --z-toast: 60;
+}
+
+[data-size="medium"] {
+  --cover-w: 168px;
+}
+
+/* ---------- Tema escuro ---------- */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #07080c;
+  --surface: #0f1117;
+  --surface-2: #151822;
+  --surface-3: #1d2130;
+  --text: #f2f3f7;
+  --text-muted: #a4a8b8;
+  --border: rgb(255 255 255 / 0.08);
+  --border-strong: rgb(255 255 255 / 0.18);
+  --shadow: 0 10px 30px rgb(0 0 0 / 0.45);
+  --select-ring: rgb(255 255 255 / 0.92);
+  --select-glow: rgb(255 255 255 / 0.22);
+  --danger: #ff7a7a;
+  --ok: #62d49e;
+  --skeleton: rgb(255 255 255 / 0.06);
+  --skeleton-hi: rgb(255 255 255 / 0.12);
+  --scrim: rgb(3 4 8 / 0.7);
+
+  /* controle: branco no escuro */
+  --pad-color: #f3f4f8;
+  --pad-second: #1a1c25;
+  --pad-shade: rgb(0 0 0 / 0.38);
+  --pad-highlight: rgb(255 255 255 / 0.5);
+  --pad-floor: rgb(0 0 0 / 0.7);
+
+  --stripe-opacity: 0.6;
+  --card-alpha: 84%;
+  --wave-opacity: 1;
+}
+
+/* ---------- Tema claro ---------- */
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f5f8;
+  --surface: #ffffff;
+  --surface-2: #eeeef3;
+  --surface-3: #e3e4eb;
+  --text: #14151a;
+  --text-muted: #555966;
+  --border: rgb(20 21 26 / 0.1);
+  --border-strong: rgb(20 21 26 / 0.22);
+  --shadow: 0 10px 30px rgb(20 21 26 / 0.08);
+  --select-ring: #14151a;
+  --select-glow: rgb(20 21 26 / 0.16);
+  --danger: #c22a2a;
+  --ok: #17804b;
+  --skeleton: rgb(20 21 26 / 0.06);
+  --skeleton-hi: rgb(20 21 26 / 0.11);
+  --scrim: rgb(20 21 26 / 0.45);
+
+  /* controle: preto no claro */
+  --pad-color: #121318;
+  --pad-second: #2c2f3a;
+  --pad-shade: rgb(0 0 0 / 0.3);
+  --pad-highlight: rgb(255 255 255 / 0.22);
+  --pad-floor: rgb(20 21 26 / 0.35);
+
+  --stripe-opacity: 0.45;
+  --card-alpha: 88%;
+  --wave-opacity: 0.8;
+}
+
+/* ---------- Cores de destaque ----------
+   --accent: preenchimentos (botão, ondas, listra)
+   --accent-ink: texto e ícones na cor de destaque (passa no AA)
+   --on-accent: texto sobre o --accent */
+[data-accent="rosa"] {
+  --accent: #ff6fb5;
+  --accent-2: #b69cff;
+  --accent-ink: #ff8cc4;
+  --on-accent: #14151a;
+}
+[data-theme="light"][data-accent="rosa"] {
+  --accent-ink: #b81f68;
+}
+
+[data-accent="azul"] {
+  --accent: #2f7bff;
+  --accent-2: #8fb6ff;
+  --accent-ink: #78a8ff;
+  --on-accent: #0b0c10;
+}
+[data-theme="light"][data-accent="azul"] {
+  --accent-ink: #1658cc;
+}
+
+[data-accent="lilas"] {
+  --accent: #b69cff;
+  --accent-2: #ff6fb5;
+  --accent-ink: #c4b0ff;
+  --on-accent: #14151a;
+}
+[data-theme="light"][data-accent="lilas"] {
+  --accent-ink: #5f40c4;
+}
+
+[data-accent="branco"] {
+  --accent: #ffffff;
+  --accent-2: #b9bcc8;
+  --accent-ink: #ffffff;
+  --on-accent: #14151a;
+}
+[data-theme="light"][data-accent="branco"] {
+  --accent: #14151a;
+  --accent-2: #6b6f7c;
+  --accent-ink: #14151a;
+  --on-accent: #ffffff;
+}
+
+:root {
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-line: color-mix(in srgb, var(--accent) 45%, transparent);
+}

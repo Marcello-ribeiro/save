@@ -1,0 +1,292 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 100%;
+  line-height: var(--lh-body);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  font-size: var(--fs-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: var(--accent-ink);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: var(--focus-w) solid var(--accent-ink);
+  outline-offset: var(--focus-w);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+/* ---------- Títulos de página ---------- */
+.page-head {
+  display: grid;
+  gap: var(--s-2);
+  margin-bottom: var(--s-6);
+}
+.page-title {
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-heavy);
+  letter-spacing: -0.03em;
+}
+.page-title em {
+  font-style: normal;
+  color: var(--accent-ink);
+}
+.page-sub {
+  color: var(--text-muted);
+  font-size: var(--fs-lg);
+}
+.section-title {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+}
+
+/* ---------- Botões ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2);
+  min-height: var(--control-h);
+  padding: 0 var(--s-4);
+  border: var(--line) solid transparent;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.btn svg {
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  flex: none;
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.btn-primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent) 86%, var(--text));
+}
+.btn-secondary {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.btn-secondary:hover:not(:disabled) {
+  background: var(--surface-3);
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--text-muted);
+}
+.btn-ghost:hover:not(:disabled) {
+  background: var(--surface-2);
+  color: var(--text);
+}
+.btn-danger {
+  background: transparent;
+  border-color: color-mix(in srgb, var(--danger) 50%, transparent);
+  color: var(--danger);
+}
+.btn-danger:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--danger) 12%, transparent);
+}
+.btn-danger.solid {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: var(--bg);
+}
+.btn-sm {
+  min-height: var(--control-h-sm);
+  padding: 0 var(--s-3);
+  font-size: var(--fs-xs);
+}
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: var(--control-h);
+  height: var(--control-h);
+  padding: 0;
+  border: var(--line) solid var(--border);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  color: var(--text-muted);
+}
+.icon-btn:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+.icon-btn svg {
+  width: var(--icon);
+  height: var(--icon);
+}
+
+/* ---------- Campos ---------- */
+.field {
+  display: grid;
+  gap: var(--s-2);
+}
+.field-label {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+}
+.field-hint {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+.input {
+  width: 100%;
+  min-height: var(--control-h);
+  padding: 0 var(--s-3);
+  border: var(--line) solid var(--border-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  color: var(--text);
+}
+textarea.input {
+  padding: var(--s-2) var(--s-3);
+  min-height: calc(var(--control-h) * 2);
+  resize: vertical;
+}
+.input::placeholder {
+  color: var(--text-muted);
+}
+.input:focus-visible {
+  outline-offset: 0;
+  border-color: var(--accent-ink);
+}
+.search {
+  position: relative;
+}
+.search svg {
+  position: absolute;
+  left: var(--s-3);
+  top: 50%;
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  translate: 0 -50%;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+.search .input {
+  padding-left: calc(var(--s-3) + var(--icon-sm) + var(--s-2));
+}
+
+.form-error {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md);
+  background: color-mix(in srgb, var(--danger) 12%, transparent);
+  color: var(--danger);
+  font-size: var(--fs-sm);
+}
+.form-ok {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md);
+  background: color-mix(in srgb, var(--ok) 12%, transparent);
+  color: var(--ok);
+  font-size: var(--fs-sm);
+}
+
+/* ---------- Superfícies ---------- */
+.card {
+  position: relative;
+  border: var(--line) solid var(--border);
+  border-radius: var(--r-lg);
+  background: color-mix(in srgb, var(--surface) var(--card-alpha), transparent);
+}
+.card-pad {
+  padding: var(--s-5);
+}
+
+/* ---------- Esqueleto ---------- */
+.skeleton {
+  border-radius: var(--r-md);
+  background: linear-gradient(90deg, var(--skeleton) 0 40%, var(--skeleton-hi) 50%, var(--skeleton) 60% 100%) 0 0 / 300% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -150% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
