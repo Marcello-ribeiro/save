@@ -1,0 +1,11 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import pkg from "./package.json" with { type: "json" };
+
+// A versão do site sai só do package.json
+export default defineConfig({
+  plugins: [react()],
+  define: {
+    __APP_VERSION__: JSON.stringify(pkg.version)
+  }
+});
