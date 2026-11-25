@@ -281,12 +281,130 @@ textarea.input {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 1ms !important;
+/* As animações seguem a opção "Efeitos" do próprio site (Configurações),
+   e não o "reduzir movimento" do sistema. */
+[data-fx="off"] *,
+[data-fx="off"] *::before,
+[data-fx="off"] *::after {
+  animation-duration: 1ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 1ms !important;
+}
+
+/* ---------- Animações de entrada ---------- */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
   }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes drop {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes title-shine {
+  to {
+    background-position: 200% 50%;
+  }
+}
+@keyframes btn-shine {
+  from {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  to {
+    transform: translateX(260%) skewX(-20deg);
+  }
+}
+
+/* blocos da página entram em sequência */
+.page > * {
+  animation: rise 0.7s var(--ease) both;
+}
+.page > :nth-child(2) { animation-delay: 0.08s; }
+.page > :nth-child(3) { animation-delay: 0.16s; }
+.page > :nth-child(4) { animation-delay: 0.24s; }
+.page > :nth-child(5) { animation-delay: 0.32s; }
+.page > :nth-child(n + 6) { animation-delay: 0.4s; }
+
+/* capas entram uma depois da outra */
+.cover-grid > * {
+  animation: pop 0.55s var(--ease) both;
+}
+.cover-grid > :nth-child(1) { animation-delay: 0.03s; }
+.cover-grid > :nth-child(2) { animation-delay: 0.06s; }
+.cover-grid > :nth-child(3) { animation-delay: 0.09s; }
+.cover-grid > :nth-child(4) { animation-delay: 0.12s; }
+.cover-grid > :nth-child(5) { animation-delay: 0.15s; }
+.cover-grid > :nth-child(6) { animation-delay: 0.18s; }
+.cover-grid > :nth-child(7) { animation-delay: 0.21s; }
+.cover-grid > :nth-child(8) { animation-delay: 0.24s; }
+.cover-grid > :nth-child(9) { animation-delay: 0.27s; }
+.cover-grid > :nth-child(10) { animation-delay: 0.3s; }
+.cover-grid > :nth-child(11) { animation-delay: 0.33s; }
+.cover-grid > :nth-child(n + 12) { animation-delay: 0.36s; }
+
+/* título com brilho correndo na palavra destacada */
+.page-title em {
+  background: linear-gradient(100deg, var(--accent) 0%, var(--accent-2) 30%, var(--accent) 50%, var(--accent-2) 70%, var(--accent) 100%) 0 50% / 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: title-shine 6s linear infinite;
+}
+
+/* botão principal: brilho passando ao passar o mouse e leve elevação */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: 0 6px 22px -8px color-mix(in srgb, var(--accent) 70%, transparent);
+}
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: -1;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+  transform: translateX(-120%) skewX(-20deg);
+}
+.btn-primary:hover:not(:disabled)::after {
+  animation: btn-shine 0.8s var(--ease);
+}
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+.btn:active:not(:disabled) {
+  transform: translateY(0) scale(0.97);
+}
+
+/* cartões acendem a borda com o mouse */
+.card {
+  transition:
+    border-color var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease);
+}
+.card:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  box-shadow: 0 18px 50px -30px color-mix(in srgb, var(--accent) 60%, transparent);
 }

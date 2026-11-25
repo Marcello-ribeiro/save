@@ -94,8 +94,8 @@
   --pad-highlight: rgb(255 255 255 / 0.5);
   --pad-floor: rgb(0 0 0 / 0.7);
 
-  --stripe-opacity: 0.6;
-  --card-alpha: 84%;
+  --stripe-opacity: 1;
+  --card-alpha: 72%;
   --wave-opacity: 1;
 }
 
@@ -126,8 +126,8 @@
   --pad-highlight: rgb(255 255 255 / 0.22);
   --pad-floor: rgb(20 21 26 / 0.35);
 
-  --stripe-opacity: 0.45;
-  --card-alpha: 88%;
+  --stripe-opacity: 0.6;
+  --card-alpha: 80%;
   --wave-opacity: 0.8;
 }
 

@@ -4,6 +4,6 @@ dist/
 .env.*
 !.env.example
 # Imagens de referência locais
-controle/
-referencias/
+/controle/
+/referencias/
 *.tsbuildinfo

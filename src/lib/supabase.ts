@@ -1,7 +1,13 @@
 import { createClient } from "@supabase/supabase-js";
 
-export const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL ?? "";
-export const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY ?? "";
+// URL e chave PUBLICÁVEL do projeto. A chave publicável pode ficar no front-end:
+// quem protege os dados é o RLS. Nunca coloque aqui a chave service_role.
+// As variáveis de ambiente (VITE_SUPABASE_URL / VITE_SUPABASE_KEY) têm prioridade.
+const DEFAULT_URL = "https://xmwdtxkoneauvtuaxwxz.supabase.co";
+const DEFAULT_KEY = "sb_publishable_99ETmFFHqJ79mpjLL18G6g_1Yhz-KQc";
+
+export const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || DEFAULT_URL;
+export const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_KEY || DEFAULT_KEY;
 export const supabaseConfigured = Boolean(SUPABASE_URL && SUPABASE_KEY);
 
 export const supabase = createClient(SUPABASE_URL || "http://localhost", SUPABASE_KEY || "chave-ausente", {

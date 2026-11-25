@@ -34,7 +34,22 @@ export function About() {
             .
           </li>
           <li>Capas: arte dos próprios jogos, servida pela CDN da Steam.</li>
-          <li>ZIP no navegador: JSZip. Conta, banco e arquivos: Supabase.</li>
+          <li>
+            Controle 3D: "
+            <a href="https://sketchfab.com/3d-models/ps5-controller-b7bb9c5102a04cb0b1966c6d02bad7d6" target="_blank" rel="noreferrer">
+              PS5 Controller
+            </a>
+            " de{" "}
+            <a href="https://sketchfab.com/taohidanimation" target="_blank" rel="noreferrer">
+              Taohid Animation
+            </a>
+            , sob a licença{" "}
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">
+              CC BY 4.0
+            </a>
+            , com as cores ajustadas ao tema. PlayStation e DualSense são marcas da Sony Interactive Entertainment.
+          </li>
+          <li>ZIP no navegador: JSZip. Visualização 3D: model-viewer. Conta, banco e arquivos: Supabase.</li>
         </ul>
         <p className="muted">Versão {__APP_VERSION__}</p>
       </section>

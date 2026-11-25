@@ -1,166 +1,344 @@
-import { useEffect, useId, useRef } from "react";
+import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
+import { usePrefs } from "../lib/prefs";
 
 /*
-  Controle original em SVG. O corpo usa currentColor (vem de --pad-color:
-  branco no tema escuro, preto no claro) e a segunda cor vem de
-  --pad-second. A luz de borda segue a cor de destaque.
+  Controle em imagem: branco no tema escuro e preto no tema claro.
+  As duas imagens ficam sobrepostas e o CSS mostra a do tema atual,
+  com uma troca suave.
 */
 
-const BODY =
-  "M300 74C365 74 425 76 474 88C526 100 552 128 566 172C582 226 596 300 584 350C576 384 540 394 516 378C492 362 474 318 452 290C432 266 392 254 300 254C208 254 168 266 148 290C126 318 108 362 84 378C60 394 24 384 16 350C4 300 18 226 34 172C48 128 74 100 126 88C175 76 235 74 300 74Z";
-const CORE = "M150 150C220 138 380 138 450 150C474 196 462 240 444 272C392 252 208 252 156 272C138 240 126 196 150 150Z";
-const PANEL = "M214 96C260 90 340 90 386 96C392 120 390 150 382 168C340 174 260 174 218 168C210 150 208 120 214 96Z";
-const SHOULDER_L = "M112 100C140 70 205 62 244 78L240 90C200 82 160 88 126 108Z";
-const SHOULDER_R = "M488 100C460 70 395 62 356 78L360 90C400 82 440 88 474 108Z";
+const PAD_DARK_THEME = "/controle/controle-branco.webp";
+const PAD_LIGHT_THEME = "/controle/controle-preto.webp";
 
-export function Controller({ mini = false, className }: { mini?: boolean; className?: string }) {
-  const uid = useId().replace(/[^a-zA-Z0-9]/g, "");
-  const id = (name: string) => `${uid}-${name}`;
-  const url = (name: string) => `url(#${id(name)})`;
-
+export function Controller({ mini = false, className, style }: { mini?: boolean; className?: string; style?: CSSProperties }) {
+  const size = mini ? { width: 40, height: 27 } : { width: 1200, height: 815 };
   return (
-    <svg className={className} viewBox="0 0 600 400" role="img" aria-label="Controle" style={{ color: "var(--pad-color)" }}>
-      <defs>
-        <linearGradient id={id("shade")} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" style={{ stopColor: "var(--pad-highlight)" }} />
-          <stop offset="0.32" stopColor="#fff" stopOpacity="0" />
-          <stop offset="0.6" stopColor="#000" stopOpacity="0" />
-          <stop offset="1" style={{ stopColor: "var(--pad-shade)" }} />
-        </linearGradient>
-        <radialGradient id={id("spec")} cx="0.3" cy="0.18" r="0.5">
-          <stop offset="0" style={{ stopColor: "var(--pad-highlight)" }} />
-          <stop offset="1" stopColor="#fff" stopOpacity="0" />
-        </radialGradient>
-        <radialGradient id={id("cap")} cx="0.38" cy="0.32" r="0.75">
-          <stop offset="0" stopColor="#fff" stopOpacity="0.28" />
-          <stop offset="0.55" stopColor="#fff" stopOpacity="0" />
-          <stop offset="1" stopColor="#000" stopOpacity="0.35" />
-        </radialGradient>
-        <linearGradient id={id("rim")} x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" style={{ stopColor: "var(--accent-2)" }} />
-          <stop offset="0.5" style={{ stopColor: "var(--accent)" }} />
-          <stop offset="1" style={{ stopColor: "var(--accent-2)" }} />
-        </linearGradient>
-        <clipPath id={id("clip")}>
-          <path d={BODY} />
-        </clipPath>
-        {!mini && (
-          <filter id={id("glow")} x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="16" />
-          </filter>
-        )}
-        {!mini && (
-          <filter id={id("soft")} x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="4" />
-          </filter>
-        )}
-      </defs>
-
-      {!mini && <path className="pad-aura" d={BODY} fill={url("rim")} filter={url("glow")} />}
-
-      <path d={SHOULDER_L} style={{ fill: "var(--pad-second)" }} />
-      <path d={SHOULDER_R} style={{ fill: "var(--pad-second)" }} />
-
-      <path d={BODY} fill="currentColor" />
-
-      <g clipPath={url("clip")}>
-        <path d={CORE} style={{ fill: "var(--pad-second)" }} />
-        <rect width="600" height="400" fill={url("shade")} />
-        <ellipse cx="190" cy="110" rx="190" ry="70" fill={url("spec")} opacity="0.7" />
-      </g>
-
-      {/* painel de toque, com a costura */}
-      <path d={PANEL} fill="currentColor" />
-      <path d={PANEL} fill={url("shade")} opacity="0.6" />
-      <path d={PANEL} fill="none" style={{ stroke: "var(--pad-second)" }} strokeOpacity="0.35" strokeWidth="2" />
-
-      {/* faixas de luz nas laterais do painel */}
-      {!mini && (
-        <g filter={url("soft")} opacity="0.9">
-          <path d="M204 104C199 126 199 148 207 166" style={{ stroke: "var(--accent)" }} strokeWidth="8" strokeLinecap="round" fill="none" />
-          <path d="M396 104C401 126 401 148 393 166" style={{ stroke: "var(--accent)" }} strokeWidth="8" strokeLinecap="round" fill="none" />
-        </g>
-      )}
-      <path className="pad-light" d="M204 104C199 126 199 148 207 166" style={{ stroke: "var(--accent)" }} strokeWidth="3.5" strokeLinecap="round" fill="none" />
-      <path className="pad-light" d="M396 104C401 126 401 148 393 166" style={{ stroke: "var(--accent)" }} strokeWidth="3.5" strokeLinecap="round" fill="none" />
-
-      {/* direcional */}
-      <g style={{ fill: "var(--pad-second)" }}>
-        <rect x="117" y="121" width="22" height="58" rx="7" />
-        <rect x="99" y="139" width="58" height="22" rx="7" />
-      </g>
-
-      {/* botões de ação: só pontos, sem símbolos */}
-      <g style={{ fill: "var(--pad-second)" }}>
-        <circle cx="472" cy="124" r="11.5" />
-        <circle cx="498" cy="150" r="11.5" />
-        <circle cx="472" cy="176" r="11.5" />
-        <circle cx="446" cy="150" r="11.5" />
-      </g>
-
-      {/* botões pequenos do centro */}
-      <rect x="180" y="92" width="12" height="22" rx="6" style={{ fill: "var(--pad-second)" }} />
-      <rect x="408" y="92" width="12" height="22" rx="6" style={{ fill: "var(--pad-second)" }} />
-      <rect x="284" y="190" width="32" height="9" rx="4.5" fill="currentColor" opacity="0.9" />
-
-      {/* analógicos */}
-      {[222, 378].map((cx) => (
-        <g key={cx}>
-          <circle cx={cx} cy="212" r="37" style={{ fill: "var(--pad-second)" }} />
-          <circle cx={cx} cy="212" r="26" fill="currentColor" />
-          <circle cx={cx} cy="212" r="26" fill={url("cap")} />
-          <circle cx={cx} cy="212" r="17" fill="none" style={{ stroke: "var(--pad-second)" }} strokeOpacity="0.4" strokeWidth="2" />
-        </g>
-      ))}
-
-      {/* luz de borda */}
-      <path className="pad-rim" d={BODY} fill="none" stroke={url("rim")} strokeWidth={mini ? 10 : 3} opacity={mini ? 0.9 : 0.85} />
-    </svg>
+    <span className={["pad", className].filter(Boolean).join(" ")} style={style} role="img" aria-label="Controle">
+      <img className="pad-dark-theme" src={PAD_DARK_THEME} alt="" {...size} draggable={false} decoding="async" />
+      <img className="pad-light-theme" src={PAD_LIGHT_THEME} alt="" {...size} draggable={false} decoding="async" />
+    </span>
   );
 }
 
-/** Controle grande: flutua e inclina seguindo o mouse. */
-export function HeroController() {
-  const ref = useRef<HTMLDivElement>(null);
+/*
+  Controle grande em 3D.
+  - Usa o modelo 3D de verdade (public/controle/ps5_controller.glb) com o
+    <model-viewer>: clique e arraste para girar para qualquer lado (360°).
+    Parado, fica de lado balançando devagar e volta para essa pose sozinho.
+  - No tema escuro o controle é branco; no claro, as partes brancas ficam pretas.
+  - A barra de luz do controle acende na cor de destaque do site.
+  - Se o modelo não carregar, usa a versão em imagem (com camadas de espessura).
+
+  Modelo: "PS5 Controller" de Taohid Animation, CC BY 4.0
+  https://sketchfab.com/3d-models/ps5-controller-b7bb9c5102a04cb0b1966c6d02bad7d6
+*/
+
+const MODEL_URL = "/controle/ps5_controller.glb";
+const DARK_BODY = [0.022, 0.023, 0.028, 1] as const;
+const LIGHT_BAR = "Material.008";
+const REST_ORBIT = { theta: -35, phi: 68 }; // pose de lado
+
+const REST = { x: 14, y: -32, z: -7 };
+const LAYERS = 9; // camadas da espessura (versão em imagem)
+const DEPTH = 2.4; // px entre camadas
+const IDLE_RETURN_MS = 3500;
+
+type Pose = { x: number; y: number };
+
+// --- tipos mínimos da API de materiais do <model-viewer> ---
+type Rgba = [number, number, number, number];
+type MvMaterial = {
+  name: string;
+  pbrMetallicRoughness: {
+    baseColorFactor: Rgba;
+    baseColorTexture: { texture: unknown | null } | null;
+    setBaseColorFactor: (c: readonly number[]) => void;
+  };
+  setEmissiveFactor: (c: readonly number[]) => void;
+};
+type MvElement = HTMLElement & { model?: { materials: MvMaterial[] } };
+
+/** "#ff6fb5" → [r, g, b] lineares (0–1), que é o que o glTF espera. */
+function accentLinear(): [number, number, number] {
+  const raw = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();
+  const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(raw);
+  let hex = m ? m[1] : "ff6fb5";
+  if (hex.length === 3) hex = hex.replace(/./g, (c) => c + c);
+  return [0, 2, 4].map((i) => Math.pow(parseInt(hex.slice(i, i + 2), 16) / 255, 2.2)) as [number, number, number];
+}
+
+function ModelController({ onFail }: { onFail: () => void }) {
+  const ref = useRef<MvElement>(null);
+  const { prefs, resolvedTheme } = usePrefs();
+  const [lib, setLib] = useState(false);
+  const [ready, setReady] = useState(false);
+  const original = useRef(new Map<MvMaterial, Rgba>());
+
+  useEffect(() => {
+    let alive = true;
+    import("@google/model-viewer")
+      .then(() => alive && setLib(true))
+      .catch(() => alive && onFail());
+    return () => {
+      alive = false;
+    };
+  }, [onFail]);
+
+  // pinta o controle conforme o tema e a cor de destaque
+  const paint = useCallback(() => {
+    const model = ref.current?.model;
+    if (!model) return;
+    const [r, g, b] = accentLinear();
+    for (const mat of model.materials) {
+      const pbr = mat.pbrMetallicRoughness;
+      if (!original.current.has(mat)) original.current.set(mat, [...pbr.baseColorFactor] as Rgba);
+      const base = original.current.get(mat)!;
+      if (mat.name === LIGHT_BAR) {
+        pbr.setBaseColorFactor([r, g, b, 1]);
+        mat.setEmissiveFactor([r, g, b]);
+        continue;
+      }
+      const isWhitePart = !pbr.baseColorTexture?.texture && Math.max(base[0], base[1], base[2]) > 0.3;
+      pbr.setBaseColorFactor(resolvedTheme === "light" && isWhitePart ? DARK_BODY : base);
+    }
+  }, [resolvedTheme]);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
-    let raf = 0;
-    let target = { x: 0, y: 0 };
-    const cur = { x: 0, y: 0 };
-
-    const onMove = (e: PointerEvent) => {
-      if (reduced.matches || document.documentElement.dataset.fx === "off") return;
-      const r = el.getBoundingClientRect();
-      const nx = (e.clientX - (r.left + r.width / 2)) / window.innerWidth;
-      const ny = (e.clientY - (r.top + r.height / 2)) / window.innerHeight;
-      target = { x: Math.max(-1, Math.min(1, nx * 2)), y: Math.max(-1, Math.min(1, ny * 2)) };
-      if (!raf) raf = requestAnimationFrame(step);
+    if (!el || !lib) return;
+    const onLoad = () => {
+      setReady(true);
+      paint();
     };
-    const step = () => {
-      cur.x += (target.x - cur.x) * 0.08;
-      cur.y += (target.y - cur.y) * 0.08;
-      el.style.setProperty("--ry", `${(cur.x * 12).toFixed(2)}deg`);
-      el.style.setProperty("--rx", `${(-cur.y * 8).toFixed(2)}deg`);
-      raf = Math.abs(target.x - cur.x) + Math.abs(target.y - cur.y) > 0.002 ? requestAnimationFrame(step) : 0;
-    };
-    window.addEventListener("pointermove", onMove, { passive: true });
+    el.addEventListener("load", onLoad);
+    el.addEventListener("error", onFail);
+    if (el.model) onLoad();
     return () => {
-      window.removeEventListener("pointermove", onMove);
+      el.removeEventListener("load", onLoad);
+      el.removeEventListener("error", onFail);
+    };
+  }, [lib, paint, onFail]);
+
+  // a cor de destaque é aplicada por atributo no <html>; espera o CSS atualizar
+  useEffect(() => {
+    if (!ready) return;
+    const id = requestAnimationFrame(paint);
+    return () => cancelAnimationFrame(id);
+  }, [ready, paint, prefs.accent]);
+
+  const fx = prefs.fx === "on";
+
+  // Parado: o controle fica de lado e balança devagar. Depois que a pessoa
+  // gira com o mouse, ele espera um pouco e volta suave para a pose de lado.
+  useEffect(() => {
+    const el = ref.current as (MvElement & { cameraOrbit: string; getCameraOrbit: () => { theta: number } }) | null;
+    if (!el || !ready) return;
+    let lastUser = 0;
+    let raf = 0;
+    let lastSet = 0;
+    const onChange = (e: Event) => {
+      if ((e as CustomEvent<{ source?: string }>).detail?.source === "user-interaction") lastUser = performance.now();
+    };
+    const tick = (now: number) => {
+      raf = requestAnimationFrame(tick);
+      if (now - lastUser < IDLE_RETURN_MS || now - lastSet < 90) return;
+      lastSet = now;
+      const t = now / 1000;
+      // volta pelo caminho mais curto, mesmo depois de várias voltas
+      const current = (el.getCameraOrbit().theta * 180) / Math.PI;
+      const turns = Math.round((current - REST_ORBIT.theta) / 360) * 360;
+      const theta = REST_ORBIT.theta + turns + (fx ? Math.sin(t * 0.45) * 14 : 0);
+      const phi = REST_ORBIT.phi + (fx ? Math.sin(t * 0.32) * 5 : 0);
+      el.cameraOrbit = `${theta.toFixed(2)}deg ${phi.toFixed(2)}deg auto`;
+    };
+    el.addEventListener("camera-change", onChange);
+    raf = requestAnimationFrame(tick);
+    return () => {
       cancelAnimationFrame(raf);
+      el.removeEventListener("camera-change", onChange);
+    };
+  }, [ready, fx]);
+
+  return (
+    <div className={`pad-model-wrap${ready ? " is-ready" : ""}`}>
+      <div className="pad3d-glow" />
+      {!ready && <div className="pad-model-loading">Carregando o controle…</div>}
+      {lib && (
+        <div className="pad-model-float">
+          <model-viewer
+            ref={ref}
+            className="pad-model"
+            src={MODEL_URL}
+            alt="Controle em 3D"
+            loading="eager"
+            reveal="auto"
+            camera-controls=""
+            touch-action="none"
+            interaction-prompt="none"
+            camera-orbit="-35deg 68deg auto"
+            min-camera-orbit="auto 0deg auto"
+            max-camera-orbit="auto 180deg auto"
+            field-of-view="30deg"
+            interpolation-decay="110"
+            shadow-intensity="1.2"
+            shadow-softness="0.9"
+            exposure="1.08"
+            environment-image="neutral"
+            tone-mapping="neutral"
+            disable-zoom=""
+            disable-pan=""
+          >
+            <div slot="progress-bar" />
+          </model-viewer>
+        </div>
+      )}
+      <span className="pad3d-hint">Arraste para girar</span>
+    </div>
+  );
+}
+
+function ImageController() {
+  const stage = useRef<HTMLDivElement>(null);
+  const obj = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = stage.current;
+    const body = obj.current;
+    if (!el || !body) return;
+
+    const off = () => document.documentElement.dataset.fx === "off";
+    const rot: Pose = { x: REST.x, y: REST.y };
+    const vel: Pose = { x: 0, y: 0 };
+    let dragging = false;
+    let last = { x: 0, y: 0, t: 0 };
+    let lastTouch = 0;
+    let raf = 0;
+    let t0 = performance.now();
+
+    const shortest = (from: number, to: number) => {
+      const d = ((((to - from) % 360) + 540) % 360) - 180;
+      return from + d;
+    };
+
+    const apply = (now: number) => {
+      const t = (now - t0) / 1000;
+      const idle = off() ? 0 : 1;
+      const bob = Math.sin(t * 1.3) * 8 * idle;
+      const sway = Math.sin(t * 0.7) * 3 * idle;
+      const roll = REST.z + Math.sin(t * 0.9) * 1.5 * idle;
+      body.style.transform =
+        `translate3d(0, ${bob.toFixed(2)}px, 0) rotateX(${(rot.x + sway * 0.5).toFixed(2)}deg) ` +
+        `rotateY(${(rot.y + sway).toFixed(2)}deg) rotateZ(${roll.toFixed(2)}deg)`;
+      // a sombra encolhe quando o controle sobe e fica mais forte de frente
+      const facing = Math.abs(Math.cos((rot.y * Math.PI) / 180));
+      el.style.setProperty("--floor-scale", (0.82 + facing * 0.18 - bob / 120).toFixed(3));
+      el.style.setProperty("--floor-alpha", (0.55 + facing * 0.45).toFixed(3));
+    };
+
+    const loop = (now: number) => {
+      if (!dragging) {
+        if (Math.abs(vel.x) + Math.abs(vel.y) > 0.02) {
+          rot.x += vel.x;
+          rot.y += vel.y;
+          vel.x *= 0.94;
+          vel.y *= 0.94;
+          last.t = now;
+        } else if (now - last.t > IDLE_RETURN_MS) {
+          const tx = shortest(rot.x, REST.x);
+          const ty = shortest(rot.y, REST.y);
+          rot.x += (tx - rot.x) * 0.045;
+          rot.y += (ty - rot.y) * 0.045;
+        }
+      }
+      apply(now);
+      raf = requestAnimationFrame(loop);
+    };
+
+    const down = (e: PointerEvent) => {
+      if (e.button !== 0) return;
+      dragging = true;
+      vel.x = vel.y = 0;
+      last = { x: e.clientX, y: e.clientY, t: performance.now() };
+      el.setPointerCapture(e.pointerId);
+      el.classList.add("is-dragging");
+    };
+    const move = (e: PointerEvent) => {
+      if (!dragging) return;
+      const now = performance.now();
+      const dx = e.clientX - last.x;
+      const dy = e.clientY - last.y;
+      rot.y += dx * 0.55;
+      rot.x -= dy * 0.55;
+      vel.y = dx * 0.55;
+      vel.x = -dy * 0.55;
+      last = { x: e.clientX, y: e.clientY, t: now };
+    };
+    const up = (e: PointerEvent) => {
+      if (!dragging) return;
+      dragging = false;
+      el.classList.remove("is-dragging");
+      if (el.hasPointerCapture(e.pointerId)) el.releasePointerCapture(e.pointerId);
+      if (performance.now() - last.t > 80) vel.x = vel.y = 0; // soltou parado: sem inércia
+      last.t = performance.now();
+    };
+    const reset = () => {
+      vel.x = vel.y = 0;
+      last.t = 0;
+    };
+    const tap = (e: PointerEvent) => {
+      // duplo toque no celular
+      if (e.pointerType !== "touch") return;
+      const now = performance.now();
+      if (now - lastTouch < 300) reset();
+      lastTouch = now;
+    };
+
+    el.addEventListener("pointerdown", down);
+    el.addEventListener("pointerdown", tap);
+    el.addEventListener("pointermove", move);
+    el.addEventListener("pointerup", up);
+    el.addEventListener("pointercancel", up);
+    el.addEventListener("dblclick", reset);
+    t0 = performance.now();
+    raf = requestAnimationFrame(loop);
+    return () => {
+      cancelAnimationFrame(raf);
+      el.removeEventListener("pointerdown", down);
+      el.removeEventListener("pointerdown", tap);
+      el.removeEventListener("pointermove", move);
+      el.removeEventListener("pointerup", up);
+      el.removeEventListener("pointercancel", up);
+      el.removeEventListener("dblclick", reset);
     };
   }, []);
 
   return (
-    <div className="hero-pad" ref={ref} aria-hidden="true">
-      <div className="hero-pad-float">
-        <div className="hero-pad-tilt">
-          <Controller />
-        </div>
+    <div className="pad3d" ref={stage} title="Arraste para girar · duplo clique para voltar">
+      <div className="pad3d-glow" />
+      <div className="pad3d-obj" ref={obj}>
+        {Array.from({ length: LAYERS }, (_, i) => (
+          <Controller
+            key={i}
+            className="pad3d-layer"
+            style={{ transform: `translateZ(${(-(i + 1) * DEPTH).toFixed(1)}px)`, filter: `brightness(${(0.62 - i * 0.035).toFixed(3)})` }}
+          />
+        ))}
+        <div className="pad3d-back" style={{ transform: `translateZ(${(-(LAYERS + 1) * DEPTH).toFixed(1)}px) rotateY(180deg)` }} />
+        <Controller className="pad3d-front" />
       </div>
-      <div className="hero-pad-floor" />
+      <div className="pad3d-floor" />
+      <span className="pad3d-hint">Arraste para girar</span>
+    </div>
+  );
+}
+
+/** Controle grande da Biblioteca. */
+export function HeroController() {
+  const [fallback, setFallback] = useState(false);
+  const fail = useCallback(() => setFallback(true), []);
+  return (
+    <div className="hero-pad" aria-hidden="true">
+      {fallback ? <ImageController /> : <ModelController onFail={fail} />}
     </div>
   );
 }

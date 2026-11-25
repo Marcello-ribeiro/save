@@ -10,6 +10,7 @@
     "catalog": "node scripts/build-catalog.mjs"
   },
   "dependencies": {
+    "@google/model-viewer": "^4.4.0",
     "@supabase/supabase-js": "^2.119.2",
     "jszip": "^3.10.2",
     "react": "^19.3.1",

@@ -23,6 +23,7 @@
 }
 
 .topbar {
+  animation: drop 0.6s var(--ease) both;
   position: fixed;
   inset: 0 0 auto 0;
   z-index: var(--z-nav);
@@ -102,6 +103,12 @@
   flex: none;
   width: var(--icon);
   height: var(--icon);
+}
+.rail-item:hover svg {
+  transform: scale(1.15);
+}
+.rail-item svg {
+  transition: transform var(--dur-fast) var(--ease);
 }
 .rail-item:hover {
   color: var(--text);
@@ -344,49 +351,144 @@
 [data-fx="off"] .bg {
   display: none;
 }
-@media (prefers-reduced-motion: reduce) {
-  .bg {
-    display: none;
-  }
-}
 
-/* ---------- Controle grande ---------- */
+
+/* ---------- Controle grande (3D, arrastável) ---------- */
 .hero-pad {
-  --rx: 0deg;
-  --ry: 0deg;
   position: relative;
   width: 100%;
-  perspective: 900px;
 }
-.hero-pad-float {
-  animation: pad-float 6s ease-in-out infinite;
+.pad3d {
+  --floor-scale: 1;
+  --floor-alpha: 1;
+  position: relative;
+  padding: 6% 4% 12%;
+  perspective: 1100px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
 }
-.hero-pad-tilt {
-  transform: rotateX(var(--rx)) rotateY(var(--ry));
+.pad3d.is-dragging {
+  cursor: grabbing;
+}
+.pad3d-obj {
+  position: relative;
   transform-style: preserve-3d;
+  will-change: transform;
 }
-.hero-pad svg {
-  width: 100%;
-  height: auto;
-  overflow: visible;
+.pad3d-obj > * {
+  backface-visibility: hidden;
 }
-.pad-aura {
-  opacity: 0.45;
-}
-.pad-light {
-  animation: pad-light 4s ease-in-out infinite;
-}
-.hero-pad-floor {
+.pad3d-obj > .pad3d-layer {
   position: absolute;
-  left: 18%;
-  right: 18%;
-  bottom: -6%;
-  height: 10%;
+  inset: 0;
+}
+.pad3d-front {
+  position: relative;
+}
+.pad3d-front img {
+  filter: drop-shadow(0 0 1px rgb(0 0 0 / 0.4));
+}
+/* costas: a silhueta do controle preenchida com um degradê */
+.pad3d-back {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, #f4f5fa 0%, #c9ccd8 55%, #8d91a0 100%);
+  -webkit-mask: url("/controle/controle-branco.webp") center / contain no-repeat;
+  mask: url("/controle/controle-branco.webp") center / contain no-repeat;
+}
+[data-theme="light"] .pad3d-back {
+  background: linear-gradient(160deg, #3a3d48 0%, #1b1d24 55%, #0b0c10 100%);
+  -webkit-mask-image: url("/controle/controle-preto.webp");
+  mask-image: url("/controle/controle-preto.webp");
+}
+.pad3d-glow {
+  position: absolute;
+  inset: 10% 8% 18%;
+  border-radius: 50%;
+  background:
+    radial-gradient(closest-side, color-mix(in srgb, var(--accent) 60%, transparent), transparent 70%),
+    radial-gradient(closest-side at 70% 60%, color-mix(in srgb, var(--accent-2) 50%, transparent), transparent 70%);
+  filter: blur(34px);
+  opacity: 0.6;
+  animation: glow-breathe 5s ease-in-out infinite;
+  pointer-events: none;
+}
+.pad3d-floor {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  bottom: 3%;
+  height: 9%;
   border-radius: 50%;
   background: radial-gradient(closest-side, var(--pad-floor), transparent);
-  animation: pad-floor 6s ease-in-out infinite;
+  opacity: var(--floor-alpha);
+  transform: scaleX(var(--floor-scale));
+  pointer-events: none;
 }
-@keyframes pad-float {
+.pad3d-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  translate: -50% 0;
+  padding: 2px var(--s-3);
+  border: var(--line) solid var(--border);
+  border-radius: var(--r-pill);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  color: var(--text-muted);
+  font-size: var(--fs-xs, 12px);
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease);
+  pointer-events: none;
+}
+.pad3d:hover .pad3d-hint {
+  opacity: 1;
+}
+.pad3d.is-dragging .pad3d-hint {
+  opacity: 0;
+}
+.pad-model-wrap {
+  position: relative;
+  aspect-ratio: 5 / 4;
+}
+.pad-model-float {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(0.92);
+  transition:
+    opacity 0.8s var(--ease),
+    transform 0.8s var(--ease);
+}
+.pad-model-wrap.is-ready .pad-model-float {
+  opacity: 1;
+  transform: none;
+  animation: pad-bob 6s ease-in-out infinite;
+}
+.pad-model {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  --poster-color: transparent;
+  cursor: grab;
+  outline: none;
+}
+.pad-model:active {
+  cursor: grabbing;
+}
+.pad-model-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+}
+.pad-model-wrap:hover .pad3d-hint {
+  opacity: 1;
+}
+@keyframes pad-bob {
   0%,
   100% {
     transform: translateY(0);
@@ -395,29 +497,18 @@
     transform: translateY(-10px);
   }
 }
-@keyframes pad-floor {
+@keyframes glow-breathe {
   0%,
   100% {
-    transform: scaleX(1);
-    opacity: 1;
+    opacity: 0.45;
+    transform: scale(0.96);
   }
   50% {
-    transform: scaleX(0.88);
-    opacity: 0.7;
+    opacity: 0.75;
+    transform: scale(1.04);
   }
 }
-@keyframes pad-light {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.55;
-  }
-}
-[data-fx="off"] .hero-pad-float,
-[data-fx="off"] .hero-pad-floor,
-[data-fx="off"] .pad-light {
+[data-fx="off"] .pad3d-glow {
   animation: none;
 }
 
@@ -511,4 +602,30 @@
     right: var(--s-4);
     width: auto;
   }
+}
+
+/* ---------- Controle (imagem): branco no tema escuro, preto no claro ---------- */
+.pad {
+  position: relative;
+  display: block;
+  aspect-ratio: 1200 / 815;
+}
+.pad img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity var(--t-slow, 0.4s) ease;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.pad-light-theme {
+  opacity: 0;
+}
+[data-theme="light"] .pad-dark-theme {
+  opacity: 0;
+}
+[data-theme="light"] .pad-light-theme {
+  opacity: 1;
 }

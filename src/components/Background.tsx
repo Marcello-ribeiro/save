@@ -4,11 +4,10 @@ import { usePrefs } from "../lib/prefs";
 /*
   Fundo: ondas finas de luz na parte de baixo da tela (canvas) e uma listra
   diagonal translúcida com um brilho que corre em loop (CSS).
-  Pausa com a aba oculta e desliga com "Efeitos de fundo" ou com
-  prefers-reduced-motion.
+  Pausa com a aba oculta e desliga com a opção "Efeitos de fundo".
 */
 
-const LINES = 6;
+const LINES = 9;
 const DOT_STEP = 16;
 
 export function Background() {
@@ -19,7 +18,6 @@ export function Background() {
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext("2d");
     if (!canvas || !ctx) return;
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     const styles = getComputedStyle(document.documentElement);
     const accent = styles.getPropertyValue("--accent").trim() || "#ff6fb5";
     const accent2 = styles.getPropertyValue("--accent-2").trim() || "#b69cff";
@@ -100,7 +98,7 @@ export function Background() {
     };
 
     const start = () => {
-      if (raf || document.hidden || reduced.matches) return;
+      if (raf || document.hidden) return;
       last = 0;
       raf = requestAnimationFrame(frame);
     };
@@ -109,7 +107,6 @@ export function Background() {
       raf = 0;
     };
     const onVisibility = () => (document.hidden ? stop() : start());
-    const onReduced = () => (reduced.matches ? stop() : start());
 
     if (prefs.fx === "off") {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -120,12 +117,10 @@ export function Background() {
     start();
     window.addEventListener("resize", resize);
     document.addEventListener("visibilitychange", onVisibility);
-    reduced.addEventListener("change", onReduced);
     return () => {
       stop();
       window.removeEventListener("resize", resize);
       document.removeEventListener("visibilitychange", onVisibility);
-      reduced.removeEventListener("change", onReduced);
     };
   }, [prefs.fx, prefs.accent, resolvedTheme]);
 
