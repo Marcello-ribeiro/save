@@ -24,6 +24,11 @@ function readRail() {
   }
 }
 
+function LogoWithSync() {
+  const { state } = useSync();
+  return <Logo busy={state === "busy"} />;
+}
+
 function SyncBadge() {
   const { state, detail } = useSync();
   const text = state === "busy" ? "Enviando…" : state === "error" ? "Erro" : "Sincronizado";
@@ -122,7 +127,7 @@ export function Shell() {
             <IconRail />
           </button>
           <Link to="/biblioteca" className="logo-link" aria-label="SaveVault, ir para a biblioteca">
-            <Logo />
+            <LogoWithSync />
           </Link>
         </div>
         <div className="topbar-right">
