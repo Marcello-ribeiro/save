@@ -56,14 +56,33 @@
   gap: var(--s-2);
 }
 .logo-mark {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  color: var(--accent-ink);
+}
+/* O anel gira em volta do próprio centro enquanto algo está sendo enviado. */
+.logo-ring {
+  transform-box: view-box;
+  transform-origin: 16px 16px;
+  transform: rotate(-78deg);
+}
+.logo.is-busy .logo-ring {
+  animation: logo-save 1.1s linear infinite;
+}
+@keyframes logo-save {
+  from {
+    transform: rotate(-78deg);
+  }
+  to {
+    transform: rotate(282deg);
+  }
 }
 .logo-word {
   font-family: var(--font-display);
-  font-size: var(--fs-lg);
-  font-weight: var(--fw-heavy);
-  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.035em;
 }
 .logo-word span {
   color: var(--accent-ink);
